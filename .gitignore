@@ -1,2 +1,4 @@
 *.geojsonseq
 *.geojson
+data/
+data_imports/
