@@ -2,3 +2,4 @@
 *.geojson
 data/
 data_imports/
+Cache/
