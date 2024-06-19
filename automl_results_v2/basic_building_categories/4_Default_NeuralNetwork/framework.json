@@ -1,0 +1,807 @@
+{
+    "uid": "5f5f35f3-ffdd-4c37-b55e-de8d94499674",
+    "name": "4_Default_NeuralNetwork",
+    "preprocessing": [
+        {
+            "remove_columns": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "category_list_agricultural_cooperatives",
+                "category_list_airline_ticket_agency",
+                "category_list_allergist",
+                "category_list_bail_bonds_service",
+                "category_list_community_gardens",
+                "category_list_customs_broker",
+                "category_list_duplication_services",
+                "category_list_editorial_services",
+                "category_list_flatbread_restaurant",
+                "category_list_forklift_dealer",
+                "category_list_hockey_arena",
+                "category_list_home_and_rental_insurance",
+                "category_list_horse_equipment_shop",
+                "category_list_light_rail_and_subway_stations",
+                "category_list_logging_equipment_and_supplies",
+                "category_list_mailbox_center",
+                "category_list_metal_plating_service",
+                "category_list_officiating_services",
+                "category_list_outdoor_advertising",
+                "category_list_petting_zoo",
+                "category_list_pipe_supplier",
+                "category_list_public_adjuster",
+                "category_list_rodeo",
+                "category_list_russian_grocery_store",
+                "category_list_scooter_dealers",
+                "category_list_textile_museum",
+                "category_list_trailer_dealer",
+                "category_list_typing_services",
+                "category_list_ukrainian_restaurant",
+                "category_list_wildlife_control",
+                "category_list_None"
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        205.30738066954535,
+                        181.1967848865414,
+                        261.86587712763196,
+                        1.5036118551159543,
+                        2.1686588080652456,
+                        2.86738606103798,
+                        2.446928739220462,
+                        2.3221358198860615,
+                        3.615754002076442,
+                        2.842841851779019,
+                        2.110851598955668,
+                        1.8368484019791649,
+                        3.1725614674496883,
+                        2.1420442346344295,
+                        1.9391221370500504,
+                        2.9473703944924914,
+                        1.0738739508616733,
+                        3.613890985333384,
+                        5.589312040212719,
+                        1.8303194346515794,
+                        1.1999042714847759,
+                        1.486895384708163,
+                        2.7185032319220443,
+                        2.4056569907746734,
+                        1.8779809584965748,
+                        5.450123802380029,
+                        2.2459429997537828,
+                        2.203204759649762,
+                        1.3803825337091487,
+                        7.554307565258215,
+                        2.353581838961326,
+                        1.7824667650701382,
+                        2.0613144580502345,
+                        2.2393248527562917,
+                        2.2556258479603475,
+                        1.7453258526770359
+                    ],
+                    "mean": [
+                        206.1868321268528,
+                        65.068597035505,
+                        1688.8042054463979,
+                        0.23061013443640124,
+                        0.08169596690796277,
+                        0.4026197862805929,
+                        0.26542571527059633,
+                        0.5070665287831783,
+                        1.853498793519476,
+                        0.5056876938986556,
+                        0.9148569458807307,
+                        0.6404688038607377,
+                        0.5094794898310927,
+                        0.6180627369872458,
+                        0.33505687693898656,
+                        0.7948983109272665,
+                        0.3471216821785591,
+                        0.3322992071699414,
+                        0.5311961392623233,
+                        0.5711823509134781,
+                        0.28955532574974147,
+                        0.4650120648052396,
+                        0.6204756980351603,
+                        0.3047225094794898,
+                        0.08652188900379179,
+                        0.39434677697345744,
+                        0.6111685625646329,
+                        0.2730093071354705,
+                        0.692519820751465,
+                        1.333678042054464,
+                        0.6776973457428473,
+                        0.5532574974146846,
+                        0.5925542916235781,
+                        0.6173733195449845,
+                        0.2626680455015512,
+                        0.21578765942778352
+                    ],
+                    "var": [
+                        42151.12055738961,
+                        32832.274853219555,
+                        68573.73760382405,
+                        2.2608486108452417,
+                        4.703081025798971,
+                        8.221902823034902,
+                        5.9874602548230405,
+                        5.392314765997912,
+                        13.073677003531806,
+                        8.081749794226361,
+                        4.4556944728137,
+                        3.374012051853412,
+                        10.065146264746518,
+                        4.588353503130598,
+                        3.7601946623975544,
+                        8.686992242330824,
+                        1.1532052623392595,
+                        13.060208053873897,
+                        31.240409082866865,
+                        3.350069232863277,
+                        1.4397702607274105,
+                        2.210857885066436,
+                        7.3902598219706,
+                        5.787185557263058,
+                        3.526812480475714,
+                        29.70384946126934,
+                        5.044259958143021,
+                        4.854111212943367,
+                        1.905455939369289,
+                        57.0675627905175,
+                        5.539347472688577,
+                        3.1771877685796035,
+                        4.249017294966932,
+                        5.014575796171987,
+                        5.087847965986837,
+                        3.0461623320228224
+                    ],
+                    "n_samples_seen": 2901,
+                    "n_features_in": 36,
+                    "columns": [
+                        "num_buildings",
+                        "num_places",
+                        "population",
+                        "category_list_advertising_agency",
+                        "category_list_airport",
+                        "category_list_art_gallery",
+                        "category_list_bank_credit_union",
+                        "category_list_bar",
+                        "category_list_beauty_salon",
+                        "category_list_business_management_services",
+                        "category_list_cafe",
+                        "category_list_church_cathedral",
+                        "category_list_clothing_store",
+                        "category_list_coffee_shop",
+                        "category_list_college_university",
+                        "category_list_community_services_non_profits",
+                        "category_list_dentist",
+                        "category_list_employment_agencies",
+                        "category_list_financial_service",
+                        "category_list_gym",
+                        "category_list_health_and_medical",
+                        "category_list_hospital",
+                        "category_list_hotel",
+                        "category_list_information_technology_company",
+                        "category_list_insurance_agency",
+                        "category_list_jewelry_store",
+                        "category_list_landmark_and_historical_building",
+                        "category_list_lawyer",
+                        "category_list_park",
+                        "category_list_professional_services",
+                        "category_list_pub",
+                        "category_list_real_estate",
+                        "category_list_restaurant",
+                        "category_list_shopping",
+                        "category_list_software_development",
+                        "category_list_theatre"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    1.3091382242223197
+                ],
+                "mean": [
+                    5.823471525682048
+                ],
+                "var": [
+                    1.7138428901199687
+                ],
+                "n_samples_seen": 2901,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    5.0
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "num_buildings": [
+                        "scale_normal"
+                    ],
+                    "num_places": [
+                        "scale_normal"
+                    ],
+                    "population": [
+                        "scale_normal"
+                    ],
+                    "0": [
+                        "remove_column"
+                    ],
+                    "1": [
+                        "remove_column"
+                    ],
+                    "2": [
+                        "remove_column"
+                    ],
+                    "3": [
+                        "remove_column"
+                    ],
+                    "4": [
+                        "remove_column"
+                    ],
+                    "5": [
+                        "remove_column"
+                    ],
+                    "6": [
+                        "remove_column"
+                    ],
+                    "7": [
+                        "remove_column"
+                    ],
+                    "8": [
+                        "remove_column"
+                    ],
+                    "9": [
+                        "remove_column"
+                    ],
+                    "10": [
+                        "remove_column"
+                    ],
+                    "11": [
+                        "remove_column"
+                    ],
+                    "12": [
+                        "remove_column"
+                    ],
+                    "13": [
+                        "remove_column"
+                    ],
+                    "14": [
+                        "remove_column"
+                    ],
+                    "category_list_advertising_agency": [
+                        "scale_normal"
+                    ],
+                    "category_list_agricultural_cooperatives": [
+                        "remove_column"
+                    ],
+                    "category_list_airline_ticket_agency": [
+                        "remove_column"
+                    ],
+                    "category_list_airport": [
+                        "scale_normal"
+                    ],
+                    "category_list_allergist": [
+                        "remove_column"
+                    ],
+                    "category_list_art_gallery": [
+                        "scale_normal"
+                    ],
+                    "category_list_bail_bonds_service": [
+                        "remove_column"
+                    ],
+                    "category_list_bank_credit_union": [
+                        "scale_normal"
+                    ],
+                    "category_list_bar": [
+                        "scale_normal"
+                    ],
+                    "category_list_beauty_salon": [
+                        "scale_normal"
+                    ],
+                    "category_list_business_management_services": [
+                        "scale_normal"
+                    ],
+                    "category_list_cafe": [
+                        "scale_normal"
+                    ],
+                    "category_list_church_cathedral": [
+                        "scale_normal"
+                    ],
+                    "category_list_clothing_store": [
+                        "scale_normal"
+                    ],
+                    "category_list_coffee_shop": [
+                        "scale_normal"
+                    ],
+                    "category_list_college_university": [
+                        "scale_normal"
+                    ],
+                    "category_list_community_gardens": [
+                        "remove_column"
+                    ],
+                    "category_list_community_services_non_profits": [
+                        "scale_normal"
+                    ],
+                    "category_list_customs_broker": [
+                        "remove_column"
+                    ],
+                    "category_list_dentist": [
+                        "scale_normal"
+                    ],
+                    "category_list_duplication_services": [
+                        "remove_column"
+                    ],
+                    "category_list_editorial_services": [
+                        "remove_column"
+                    ],
+                    "category_list_employment_agencies": [
+                        "scale_normal"
+                    ],
+                    "category_list_financial_service": [
+                        "scale_normal"
+                    ],
+                    "category_list_flatbread_restaurant": [
+                        "remove_column"
+                    ],
+                    "category_list_forklift_dealer": [
+                        "remove_column"
+                    ],
+                    "category_list_gym": [
+                        "scale_normal"
+                    ],
+                    "category_list_health_and_medical": [
+                        "scale_normal"
+                    ],
+                    "category_list_hockey_arena": [
+                        "remove_column"
+                    ],
+                    "category_list_home_and_rental_insurance": [
+                        "remove_column"
+                    ],
+                    "category_list_horse_equipment_shop": [
+                        "remove_column"
+                    ],
+                    "category_list_hospital": [
+                        "scale_normal"
+                    ],
+                    "category_list_hotel": [
+                        "scale_normal"
+                    ],
+                    "category_list_information_technology_company": [
+                        "scale_normal"
+                    ],
+                    "category_list_insurance_agency": [
+                        "scale_normal"
+                    ],
+                    "category_list_jewelry_store": [
+                        "scale_normal"
+                    ],
+                    "category_list_landmark_and_historical_building": [
+                        "scale_normal"
+                    ],
+                    "category_list_lawyer": [
+                        "scale_normal"
+                    ],
+                    "category_list_light_rail_and_subway_stations": [
+                        "remove_column"
+                    ],
+                    "category_list_logging_equipment_and_supplies": [
+                        "remove_column"
+                    ],
+                    "category_list_mailbox_center": [
+                        "remove_column"
+                    ],
+                    "category_list_metal_plating_service": [
+                        "remove_column"
+                    ],
+                    "category_list_officiating_services": [
+                        "remove_column"
+                    ],
+                    "category_list_outdoor_advertising": [
+                        "remove_column"
+                    ],
+                    "category_list_park": [
+                        "scale_normal"
+                    ],
+                    "category_list_petting_zoo": [
+                        "remove_column"
+                    ],
+                    "category_list_pipe_supplier": [
+                        "remove_column"
+                    ],
+                    "category_list_professional_services": [
+                        "scale_normal"
+                    ],
+                    "category_list_pub": [
+                        "scale_normal"
+                    ],
+                    "category_list_public_adjuster": [
+                        "remove_column"
+                    ],
+                    "category_list_real_estate": [
+                        "scale_normal"
+                    ],
+                    "category_list_restaurant": [
+                        "scale_normal"
+                    ],
+                    "category_list_rodeo": [
+                        "remove_column"
+                    ],
+                    "category_list_russian_grocery_store": [
+                        "remove_column"
+                    ],
+                    "category_list_scooter_dealers": [
+                        "remove_column"
+                    ],
+                    "category_list_shopping": [
+                        "scale_normal"
+                    ],
+                    "category_list_software_development": [
+                        "scale_normal"
+                    ],
+                    "category_list_textile_museum": [
+                        "remove_column"
+                    ],
+                    "category_list_theatre": [
+                        "scale_normal"
+                    ],
+                    "category_list_trailer_dealer": [
+                        "remove_column"
+                    ],
+                    "category_list_typing_services": [
+                        "remove_column"
+                    ],
+                    "category_list_ukrainian_restaurant": [
+                        "remove_column"
+                    ],
+                    "category_list_wildlife_control": [
+                        "remove_column"
+                    ],
+                    "category_list_None": [
+                        "remove_column"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.3.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "b2e231c3-7c6a-4d9e-b7fb-d697c429fb66",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 4,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "num_buildings": [
+                    "scale_normal"
+                ],
+                "num_places": [
+                    "scale_normal"
+                ],
+                "population": [
+                    "scale_normal"
+                ],
+                "0": [
+                    "remove_column"
+                ],
+                "1": [
+                    "remove_column"
+                ],
+                "2": [
+                    "remove_column"
+                ],
+                "3": [
+                    "remove_column"
+                ],
+                "4": [
+                    "remove_column"
+                ],
+                "5": [
+                    "remove_column"
+                ],
+                "6": [
+                    "remove_column"
+                ],
+                "7": [
+                    "remove_column"
+                ],
+                "8": [
+                    "remove_column"
+                ],
+                "9": [
+                    "remove_column"
+                ],
+                "10": [
+                    "remove_column"
+                ],
+                "11": [
+                    "remove_column"
+                ],
+                "12": [
+                    "remove_column"
+                ],
+                "13": [
+                    "remove_column"
+                ],
+                "14": [
+                    "remove_column"
+                ],
+                "category_list_advertising_agency": [
+                    "scale_normal"
+                ],
+                "category_list_agricultural_cooperatives": [
+                    "remove_column"
+                ],
+                "category_list_airline_ticket_agency": [
+                    "remove_column"
+                ],
+                "category_list_airport": [
+                    "scale_normal"
+                ],
+                "category_list_allergist": [
+                    "remove_column"
+                ],
+                "category_list_art_gallery": [
+                    "scale_normal"
+                ],
+                "category_list_bail_bonds_service": [
+                    "remove_column"
+                ],
+                "category_list_bank_credit_union": [
+                    "scale_normal"
+                ],
+                "category_list_bar": [
+                    "scale_normal"
+                ],
+                "category_list_beauty_salon": [
+                    "scale_normal"
+                ],
+                "category_list_business_management_services": [
+                    "scale_normal"
+                ],
+                "category_list_cafe": [
+                    "scale_normal"
+                ],
+                "category_list_church_cathedral": [
+                    "scale_normal"
+                ],
+                "category_list_clothing_store": [
+                    "scale_normal"
+                ],
+                "category_list_coffee_shop": [
+                    "scale_normal"
+                ],
+                "category_list_college_university": [
+                    "scale_normal"
+                ],
+                "category_list_community_gardens": [
+                    "remove_column"
+                ],
+                "category_list_community_services_non_profits": [
+                    "scale_normal"
+                ],
+                "category_list_customs_broker": [
+                    "remove_column"
+                ],
+                "category_list_dentist": [
+                    "scale_normal"
+                ],
+                "category_list_duplication_services": [
+                    "remove_column"
+                ],
+                "category_list_editorial_services": [
+                    "remove_column"
+                ],
+                "category_list_employment_agencies": [
+                    "scale_normal"
+                ],
+                "category_list_financial_service": [
+                    "scale_normal"
+                ],
+                "category_list_flatbread_restaurant": [
+                    "remove_column"
+                ],
+                "category_list_forklift_dealer": [
+                    "remove_column"
+                ],
+                "category_list_gym": [
+                    "scale_normal"
+                ],
+                "category_list_health_and_medical": [
+                    "scale_normal"
+                ],
+                "category_list_hockey_arena": [
+                    "remove_column"
+                ],
+                "category_list_home_and_rental_insurance": [
+                    "remove_column"
+                ],
+                "category_list_horse_equipment_shop": [
+                    "remove_column"
+                ],
+                "category_list_hospital": [
+                    "scale_normal"
+                ],
+                "category_list_hotel": [
+                    "scale_normal"
+                ],
+                "category_list_information_technology_company": [
+                    "scale_normal"
+                ],
+                "category_list_insurance_agency": [
+                    "scale_normal"
+                ],
+                "category_list_jewelry_store": [
+                    "scale_normal"
+                ],
+                "category_list_landmark_and_historical_building": [
+                    "scale_normal"
+                ],
+                "category_list_lawyer": [
+                    "scale_normal"
+                ],
+                "category_list_light_rail_and_subway_stations": [
+                    "remove_column"
+                ],
+                "category_list_logging_equipment_and_supplies": [
+                    "remove_column"
+                ],
+                "category_list_mailbox_center": [
+                    "remove_column"
+                ],
+                "category_list_metal_plating_service": [
+                    "remove_column"
+                ],
+                "category_list_officiating_services": [
+                    "remove_column"
+                ],
+                "category_list_outdoor_advertising": [
+                    "remove_column"
+                ],
+                "category_list_park": [
+                    "scale_normal"
+                ],
+                "category_list_petting_zoo": [
+                    "remove_column"
+                ],
+                "category_list_pipe_supplier": [
+                    "remove_column"
+                ],
+                "category_list_professional_services": [
+                    "scale_normal"
+                ],
+                "category_list_pub": [
+                    "scale_normal"
+                ],
+                "category_list_public_adjuster": [
+                    "remove_column"
+                ],
+                "category_list_real_estate": [
+                    "scale_normal"
+                ],
+                "category_list_restaurant": [
+                    "scale_normal"
+                ],
+                "category_list_rodeo": [
+                    "remove_column"
+                ],
+                "category_list_russian_grocery_store": [
+                    "remove_column"
+                ],
+                "category_list_scooter_dealers": [
+                    "remove_column"
+                ],
+                "category_list_shopping": [
+                    "scale_normal"
+                ],
+                "category_list_software_development": [
+                    "scale_normal"
+                ],
+                "category_list_textile_museum": [
+                    "remove_column"
+                ],
+                "category_list_theatre": [
+                    "scale_normal"
+                ],
+                "category_list_trailer_dealer": [
+                    "remove_column"
+                ],
+                "category_list_typing_services": [
+                    "remove_column"
+                ],
+                "category_list_ukrainian_restaurant": [
+                    "remove_column"
+                ],
+                "category_list_wildlife_control": [
+                    "remove_column"
+                ],
+                "category_list_None": [
+                    "remove_column"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_log_and_normal"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "X_path": "automl_results_v2/basic_building_categories/X.data",
+            "y_path": "automl_results_v2/basic_building_categories/y.data",
+            "results_path": "automl_results_v2/basic_building_categories/"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "dense_1_size": 32,
+            "dense_2_size": 16,
+            "learning_rate": 0.05,
+            "seed": 4,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 2,
+        "name": "4_Default_NeuralNetwork",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 360.0
+    },
+    "saved": [
+        "4_Default_NeuralNetwork/learner_fold_0.neural_network"
+    ],
+    "predictions_fname": "4_Default_NeuralNetwork/predictions_validation.csv",
+    "metric_name": "rmse",
+    "final_loss": "89483154.31509747",
+    "train_time": 41.90333795547485,
+    "is_stacked": false,
+    "joblib_version": "1.3.2"
+}

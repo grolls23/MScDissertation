@@ -1,0 +1,10 @@
+if (category_list_nutritionist <= 5.0) and (category_list_financial_service <= 13.5) and (num_places <= 447.0) then response: 735.809 | based on 2,863 samples
+
+if (category_list_nutritionist <= 5.0) and (category_list_financial_service <= 13.5) and (num_places > 447.0) then response: 16678.654 | based on 26 samples
+
+if (category_list_nutritionist <= 5.0) and (category_list_financial_service > 13.5) and (category_list_real_estate_agent <= 5.0) then response: 41216.667 | based on 6 samples
+
+if (category_list_nutritionist <= 5.0) and (category_list_financial_service > 13.5) and (category_list_real_estate_agent > 5.0) then response: 66603.0 | based on 5 samples
+
+if (category_list_nutritionist > 5.0) then response: 383975.0 | based on 1 samples
+
