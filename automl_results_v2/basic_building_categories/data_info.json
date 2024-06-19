@@ -3,21 +3,21 @@
         "num_buildings",
         "num_places",
         "population",
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14",
+        "all_avg_building_area",
+        "all_lsoa_area_ratio",
+        "all_total_area",
+        "residential_avg_building_area",
+        "residential_lsoa_area_ratio",
+        "residential_total_area",
+        "commercial_avg_building_area",
+        "commercial_lsoa_area_ratio",
+        "commercial_total_area",
+        "office_avg_building_area",
+        "office_lsoa_area_ratio",
+        "office_total_area",
+        "retail_avg_building_area",
+        "retail_lsoa_area_ratio",
+        "retail_total_area",
         "category_list_3d_printing_service",
         "category_list_abortion_clinic",
         "category_list_abuse_and_addiction_treatment",
@@ -1600,51 +1600,21 @@
         "population": [
             "scale"
         ],
-        "0": [
-            "empty_column"
-        ],
-        "1": [
-            "empty_column"
-        ],
-        "2": [
-            "empty_column"
-        ],
-        "3": [
-            "empty_column"
-        ],
-        "4": [
-            "empty_column"
-        ],
-        "5": [
-            "empty_column"
-        ],
-        "6": [
-            "empty_column"
-        ],
-        "7": [
-            "empty_column"
-        ],
-        "8": [
-            "empty_column"
-        ],
-        "9": [
-            "empty_column"
-        ],
-        "10": [
-            "empty_column"
-        ],
-        "11": [
-            "empty_column"
-        ],
-        "12": [
-            "empty_column"
-        ],
-        "13": [
-            "empty_column"
-        ],
-        "14": [
-            "empty_column"
-        ],
+        "all_avg_building_area": [],
+        "all_lsoa_area_ratio": [],
+        "all_total_area": [],
+        "residential_avg_building_area": [],
+        "residential_lsoa_area_ratio": [],
+        "residential_total_area": [],
+        "commercial_avg_building_area": [],
+        "commercial_lsoa_area_ratio": [],
+        "commercial_total_area": [],
+        "office_avg_building_area": [],
+        "office_lsoa_area_ratio": [],
+        "office_total_area": [],
+        "retail_avg_building_area": [],
+        "retail_lsoa_area_ratio": [],
+        "retail_total_area": [],
         "category_list_3d_printing_service": [],
         "category_list_abortion_clinic": [],
         "category_list_abuse_and_addiction_treatment": [],

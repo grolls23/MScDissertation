@@ -20,43 +20,43 @@
                 "model_name": "prepare_data",
                 "model_type": "prepare_data",
                 "fit_level": "prepare_data",
-                "train_time": 0.6849591732025146
+                "train_time": 0.7061729431152344
             },
             {
                 "model_name": "1_Baseline",
                 "model_type": "Baseline",
                 "fit_level": "simple_algorithms",
-                "train_time": 0.513498067855835
+                "train_time": 0.4205479621887207
             },
             {
                 "model_name": "2_DecisionTree",
                 "model_type": "Decision Tree",
                 "fit_level": "simple_algorithms",
-                "train_time": 68.65244579315186
+                "train_time": 67.1227388381958
             },
             {
                 "model_name": "3_Default_Xgboost",
                 "model_type": "Xgboost",
                 "fit_level": "default_algorithms",
-                "train_time": 92.56297492980957
+                "train_time": 95.76748323440552
             },
             {
                 "model_name": "4_Default_NeuralNetwork",
                 "model_type": "Neural Network",
                 "fit_level": "default_algorithms",
-                "train_time": 41.90333795547485
+                "train_time": 46.14895296096802
             },
             {
                 "model_name": "5_Default_RandomForest",
                 "model_type": "Random Forest",
                 "fit_level": "default_algorithms",
-                "train_time": 90.34483599662781
+                "train_time": 113.53305888175964
             },
             {
                 "model_name": "Ensemble",
                 "model_type": "Ensemble",
                 "fit_level": "ensemble",
-                "train_time": 0.07350611686706543
+                "train_time": 0.06659603118896484
             }
         ],
         "is_hill_climbing": false,
@@ -72,51 +72,6 @@
                 },
                 "preprocessing": {
                     "columns_preprocessing": {
-                        "0": [
-                            "remove_column"
-                        ],
-                        "1": [
-                            "remove_column"
-                        ],
-                        "2": [
-                            "remove_column"
-                        ],
-                        "3": [
-                            "remove_column"
-                        ],
-                        "4": [
-                            "remove_column"
-                        ],
-                        "5": [
-                            "remove_column"
-                        ],
-                        "6": [
-                            "remove_column"
-                        ],
-                        "7": [
-                            "remove_column"
-                        ],
-                        "8": [
-                            "remove_column"
-                        ],
-                        "9": [
-                            "remove_column"
-                        ],
-                        "10": [
-                            "remove_column"
-                        ],
-                        "11": [
-                            "remove_column"
-                        ],
-                        "12": [
-                            "remove_column"
-                        ],
-                        "13": [
-                            "remove_column"
-                        ],
-                        "14": [
-                            "remove_column"
-                        ],
                         "category_list_agricultural_cooperatives": [
                             "remove_column"
                         ],
@@ -237,7 +192,7 @@
                 "name": "1_Baseline",
                 "status": "trained",
                 "final_loss": 5958.1764808578055,
-                "train_time": 0.7294740676879883,
+                "train_time": 0.5329418182373047,
                 "data_type": "original",
                 "max_time_for_learner": 360.0
             },
@@ -251,51 +206,6 @@
                 },
                 "preprocessing": {
                     "columns_preprocessing": {
-                        "0": [
-                            "remove_column"
-                        ],
-                        "1": [
-                            "remove_column"
-                        ],
-                        "2": [
-                            "remove_column"
-                        ],
-                        "3": [
-                            "remove_column"
-                        ],
-                        "4": [
-                            "remove_column"
-                        ],
-                        "5": [
-                            "remove_column"
-                        ],
-                        "6": [
-                            "remove_column"
-                        ],
-                        "7": [
-                            "remove_column"
-                        ],
-                        "8": [
-                            "remove_column"
-                        ],
-                        "9": [
-                            "remove_column"
-                        ],
-                        "10": [
-                            "remove_column"
-                        ],
-                        "11": [
-                            "remove_column"
-                        ],
-                        "12": [
-                            "remove_column"
-                        ],
-                        "13": [
-                            "remove_column"
-                        ],
-                        "14": [
-                            "remove_column"
-                        ],
                         "category_list_agricultural_cooperatives": [
                             "remove_column"
                         ],
@@ -417,8 +327,8 @@
                 "explain_level": 2,
                 "name": "2_DecisionTree",
                 "status": "trained",
-                "final_loss": 12594.497399324204,
-                "train_time": 68.85334277153015,
+                "final_loss": 4055.452013653515,
+                "train_time": 67.31613969802856,
                 "data_type": "original",
                 "max_time_for_learner": 360.0
             }
@@ -433,51 +343,6 @@
                 },
                 "preprocessing": {
                     "columns_preprocessing": {
-                        "0": [
-                            "remove_column"
-                        ],
-                        "1": [
-                            "remove_column"
-                        ],
-                        "2": [
-                            "remove_column"
-                        ],
-                        "3": [
-                            "remove_column"
-                        ],
-                        "4": [
-                            "remove_column"
-                        ],
-                        "5": [
-                            "remove_column"
-                        ],
-                        "6": [
-                            "remove_column"
-                        ],
-                        "7": [
-                            "remove_column"
-                        ],
-                        "8": [
-                            "remove_column"
-                        ],
-                        "9": [
-                            "remove_column"
-                        ],
-                        "10": [
-                            "remove_column"
-                        ],
-                        "11": [
-                            "remove_column"
-                        ],
-                        "12": [
-                            "remove_column"
-                        ],
-                        "13": [
-                            "remove_column"
-                        ],
-                        "14": [
-                            "remove_column"
-                        ],
                         "category_list_agricultural_cooperatives": [
                             "remove_column"
                         ],
@@ -605,8 +470,8 @@
                 "explain_level": 2,
                 "name": "3_Default_Xgboost",
                 "status": "trained",
-                "final_loss": 3354.654602808256,
-                "train_time": 92.78381013870239,
+                "final_loss": 2758.329662358298,
+                "train_time": 95.98316645622253,
                 "data_type": "original",
                 "max_time_for_learner": 360.0
             },
@@ -625,51 +490,6 @@
                         ],
                         "population": [
                             "scale_normal"
-                        ],
-                        "0": [
-                            "remove_column"
-                        ],
-                        "1": [
-                            "remove_column"
-                        ],
-                        "2": [
-                            "remove_column"
-                        ],
-                        "3": [
-                            "remove_column"
-                        ],
-                        "4": [
-                            "remove_column"
-                        ],
-                        "5": [
-                            "remove_column"
-                        ],
-                        "6": [
-                            "remove_column"
-                        ],
-                        "7": [
-                            "remove_column"
-                        ],
-                        "8": [
-                            "remove_column"
-                        ],
-                        "9": [
-                            "remove_column"
-                        ],
-                        "10": [
-                            "remove_column"
-                        ],
-                        "11": [
-                            "remove_column"
-                        ],
-                        "12": [
-                            "remove_column"
-                        ],
-                        "13": [
-                            "remove_column"
-                        ],
-                        "14": [
-                            "remove_column"
                         ],
                         "category_list_advertising_agency": [
                             "scale_normal"
@@ -893,8 +713,8 @@
                 "explain_level": 2,
                 "name": "4_Default_NeuralNetwork",
                 "status": "trained",
-                "final_loss": 89483154.31509747,
-                "train_time": 42.10547399520874,
+                "final_loss": 5686.811686655455,
+                "train_time": 46.424421072006226,
                 "data_type": "original",
                 "max_time_for_learner": 360.0
             },
@@ -910,51 +730,6 @@
                 },
                 "preprocessing": {
                     "columns_preprocessing": {
-                        "0": [
-                            "remove_column"
-                        ],
-                        "1": [
-                            "remove_column"
-                        ],
-                        "2": [
-                            "remove_column"
-                        ],
-                        "3": [
-                            "remove_column"
-                        ],
-                        "4": [
-                            "remove_column"
-                        ],
-                        "5": [
-                            "remove_column"
-                        ],
-                        "6": [
-                            "remove_column"
-                        ],
-                        "7": [
-                            "remove_column"
-                        ],
-                        "8": [
-                            "remove_column"
-                        ],
-                        "9": [
-                            "remove_column"
-                        ],
-                        "10": [
-                            "remove_column"
-                        ],
-                        "11": [
-                            "remove_column"
-                        ],
-                        "12": [
-                            "remove_column"
-                        ],
-                        "13": [
-                            "remove_column"
-                        ],
-                        "14": [
-                            "remove_column"
-                        ],
                         "category_list_agricultural_cooperatives": [
                             "remove_column"
                         ],
@@ -1080,8 +855,8 @@
                 "explain_level": 2,
                 "name": "5_Default_RandomForest",
                 "status": "trained",
-                "final_loss": 4216.065702748063,
-                "train_time": 90.55549001693726,
+                "final_loss": 4257.2359138290185,
+                "train_time": 113.77742171287537,
                 "data_type": "original",
                 "max_time_for_learner": 360.0
             }
@@ -1092,8 +867,8 @@
                 "is_stacked": false,
                 "name": "Ensemble",
                 "status": "trained",
-                "final_loss": 3354.6549005622933,
-                "train_time": 0.07350611686706543
+                "final_loss": 2758.3299089904513,
+                "train_time": 0.06659603118896484
             }
         ]
     },

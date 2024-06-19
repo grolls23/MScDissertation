@@ -1,24 +1,9 @@
 {
-    "uid": "2066702c-0e6d-4b6c-9b02-26f551f7aac1",
+    "uid": "9d63e72a-2a47-4979-b1b9-31784556c5f1",
     "name": "5_Default_RandomForest",
     "preprocessing": [
         {
             "remove_columns": [
-                "0",
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7",
-                "8",
-                "9",
-                "10",
-                "11",
-                "12",
-                "13",
-                "14",
                 "category_list_agricultural_cooperatives",
                 "category_list_airline_ticket_agency",
                 "category_list_allergist",
@@ -74,51 +59,6 @@
             "ml_task": "regression",
             "params": {
                 "columns_preprocessing": {
-                    "0": [
-                        "remove_column"
-                    ],
-                    "1": [
-                        "remove_column"
-                    ],
-                    "2": [
-                        "remove_column"
-                    ],
-                    "3": [
-                        "remove_column"
-                    ],
-                    "4": [
-                        "remove_column"
-                    ],
-                    "5": [
-                        "remove_column"
-                    ],
-                    "6": [
-                        "remove_column"
-                    ],
-                    "7": [
-                        "remove_column"
-                    ],
-                    "8": [
-                        "remove_column"
-                    ],
-                    "9": [
-                        "remove_column"
-                    ],
-                    "10": [
-                        "remove_column"
-                    ],
-                    "11": [
-                        "remove_column"
-                    ],
-                    "12": [
-                        "remove_column"
-                    ],
-                    "13": [
-                        "remove_column"
-                    ],
-                    "14": [
-                        "remove_column"
-                    ],
                     "category_list_agricultural_cooperatives": [
                         "remove_column"
                     ],
@@ -226,7 +166,7 @@
             "library_version": "1.3.2",
             "algorithm_name": "Random Forest",
             "algorithm_short_name": "Random Forest",
-            "uid": "13a9f765-d3db-4fcf-863a-2bbfbe689297",
+            "uid": "ddc41f11-6821-4f6f-96ed-b44736985595",
             "params": {
                 "model_type": "Random Forest",
                 "ml_task": "regression",
@@ -254,51 +194,6 @@
         },
         "preprocessing": {
             "columns_preprocessing": {
-                "0": [
-                    "remove_column"
-                ],
-                "1": [
-                    "remove_column"
-                ],
-                "2": [
-                    "remove_column"
-                ],
-                "3": [
-                    "remove_column"
-                ],
-                "4": [
-                    "remove_column"
-                ],
-                "5": [
-                    "remove_column"
-                ],
-                "6": [
-                    "remove_column"
-                ],
-                "7": [
-                    "remove_column"
-                ],
-                "8": [
-                    "remove_column"
-                ],
-                "9": [
-                    "remove_column"
-                ],
-                "10": [
-                    "remove_column"
-                ],
-                "11": [
-                    "remove_column"
-                ],
-                "12": [
-                    "remove_column"
-                ],
-                "13": [
-                    "remove_column"
-                ],
-                "14": [
-                    "remove_column"
-                ],
                 "category_list_agricultural_cooperatives": [
                     "remove_column"
                 ],
@@ -434,8 +329,8 @@
     ],
     "predictions_fname": "5_Default_RandomForest/predictions_validation.csv",
     "metric_name": "rmse",
-    "final_loss": "4216.065702748063",
-    "train_time": 90.34483599662781,
+    "final_loss": "4257.2359138290185",
+    "train_time": 113.53305888175964,
     "is_stacked": false,
     "joblib_version": "1.3.2"
 }
