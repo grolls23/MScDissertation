@@ -1,0 +1,541 @@
+{
+    "uid": "70426d40-1882-495e-806e-70063db7e8f3",
+    "name": "5_Default_NeuralNetwork",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        205.30738066954535,
+                        181.1967848865414,
+                        261.86587712763196,
+                        7.618866754946793,
+                        1.508873195540073,
+                        16.812553898777693,
+                        15.990697891484423,
+                        4.272585519082408,
+                        11.677491207558738,
+                        1.6475563110958253,
+                        1.8799887162776812,
+                        2.1686588080652456,
+                        1.8124209596335161,
+                        1.5040195728720596,
+                        1.4873985195005266,
+                        1.8120807973244812,
+                        2.86738606103798,
+                        2.2399806618879774,
+                        4.582288088382914,
+                        3.738255641921139,
+                        2.523054270341658,
+                        4.271692197809834,
+                        3.8087618934471257,
+                        1.6977066545507866,
+                        1.8304672512300553,
+                        1.3495625101955222,
+                        2.135803107862955,
+                        2.3342518071612974,
+                        0.9867219555139435,
+                        1.6548621678498106,
+                        1.6007578974765613,
+                        1.8368484019791649,
+                        3.633723762524417,
+                        1.9391221370500504,
+                        2.255366388988265,
+                        2.9473703944924914,
+                        1.2068186850656646,
+                        1.1999042714847759,
+                        2.7185032319220443,
+                        2.4661683827018765,
+                        2.203204759649762,
+                        2.2903690507901597,
+                        2.2393248527562917,
+                        1.7453258526770359
+                    ],
+                    "mean": [
+                        206.1868321268528,
+                        65.068597035505,
+                        1688.8042054463979,
+                        1.764219234746639,
+                        0.7769734574284729,
+                        3.850741123750431,
+                        5.046535677352637,
+                        0.6456394346776974,
+                        3.9424336435711824,
+                        0.3578076525336091,
+                        0.8493622888659083,
+                        0.08169596690796277,
+                        0.10099965529127887,
+                        0.7311271975180972,
+                        0.4667356084108928,
+                        0.4270941054808687,
+                        0.4026197862805929,
+                        1.581868321268528,
+                        1.6015167183729748,
+                        0.5766976904515684,
+                        0.2899000344708721,
+                        0.822475008617718,
+                        1.943812478455705,
+                        0.47397449155463633,
+                        0.5722164770768701,
+                        0.5439503619441571,
+                        0.9265770423991727,
+                        0.6490865218890038,
+                        0.5163736642537056,
+                        0.3553946914856946,
+                        0.613926232333678,
+                        0.6404688038607377,
+                        0.3354015856601172,
+                        0.33505687693898656,
+                        0.6242674939675974,
+                        0.7948983109272665,
+                        0.38228197173388484,
+                        0.28955532574974147,
+                        0.6204756980351603,
+                        0.6959669079627715,
+                        0.2730093071354705,
+                        0.27473285074112375,
+                        0.6173733195449845,
+                        0.21578765942778352
+                    ],
+                    "var": [
+                        42151.12055738961,
+                        32832.274853219555,
+                        68573.73760382405,
+                        58.04713062963348,
+                        2.276698320219311,
+                        282.66196859930506,
+                        255.70241905672438,
+                        18.25498701787269,
+                        136.36380090261164,
+                        2.7144417982316837,
+                        3.5343575733314037,
+                        4.703081025798971,
+                        3.284869734918875,
+                        2.2620748755822526,
+                        2.2123543558123586,
+                        3.2836368160321276,
+                        8.221902823034902,
+                        5.017513365632101,
+                        20.997364124935938,
+                        13.974555244355228,
+                        6.365802851089278,
+                        18.247354232829412,
+                        14.506667160974933,
+                        2.882207884906024,
+                        3.350610357825714,
+                        1.8213189689252391,
+                        4.561654915557058,
+                        5.448731499235782,
+                        0.9736202174932606,
+                        2.7385687945805746,
+                        2.562425846333581,
+                        3.374012051853412,
+                        13.203948382334607,
+                        3.7601946623975544,
+                        5.086677548577966,
+                        8.686992242330824,
+                        1.45641133862362,
+                        1.4397702607274105,
+                        7.3902598219706,
+                        6.081986491838388,
+                        4.854111212943367,
+                        5.245790388817417,
+                        5.014575796171987,
+                        3.0461623320228224
+                    ],
+                    "n_samples_seen": 2901,
+                    "n_features_in": 44,
+                    "columns": [
+                        "num_buildings",
+                        "num_places",
+                        "population",
+                        "all_service",
+                        "all_center",
+                        "all_services",
+                        "all_store",
+                        "all_agency",
+                        "all_restaurant",
+                        "all_production",
+                        "all_repair",
+                        "airport",
+                        "all_lounge",
+                        "all_park",
+                        "all_hospital",
+                        "all_designer",
+                        "art_gallery",
+                        "all_school",
+                        "all_shop",
+                        "all_company",
+                        "all_union",
+                        "all_bar",
+                        "all_salon",
+                        "all_club",
+                        "all_gym",
+                        "all_station",
+                        "all_cafe",
+                        "all_building",
+                        "all_cleaning",
+                        "all_office",
+                        "all_organization",
+                        "church_cathedral",
+                        "all_agencies",
+                        "college_university",
+                        "all_estate",
+                        "community_services_non_profits",
+                        "all_dentist",
+                        "health_and_medical",
+                        "hotel",
+                        "all_pub",
+                        "lawyer",
+                        "all_development",
+                        "shopping",
+                        "theatre"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "num_buildings": [
+                        "scale_normal"
+                    ],
+                    "num_places": [
+                        "scale_normal"
+                    ],
+                    "population": [
+                        "scale_normal"
+                    ],
+                    "all_service": [
+                        "scale_normal"
+                    ],
+                    "all_center": [
+                        "scale_normal"
+                    ],
+                    "all_services": [
+                        "scale_normal"
+                    ],
+                    "all_store": [
+                        "scale_normal"
+                    ],
+                    "all_agency": [
+                        "scale_normal"
+                    ],
+                    "all_restaurant": [
+                        "scale_normal"
+                    ],
+                    "all_production": [
+                        "scale_normal"
+                    ],
+                    "all_repair": [
+                        "scale_normal"
+                    ],
+                    "airport": [
+                        "scale_normal"
+                    ],
+                    "all_lounge": [
+                        "scale_normal"
+                    ],
+                    "all_park": [
+                        "scale_normal"
+                    ],
+                    "all_hospital": [
+                        "scale_normal"
+                    ],
+                    "all_designer": [
+                        "scale_normal"
+                    ],
+                    "art_gallery": [
+                        "scale_normal"
+                    ],
+                    "all_school": [
+                        "scale_normal"
+                    ],
+                    "all_shop": [
+                        "scale_normal"
+                    ],
+                    "all_company": [
+                        "scale_normal"
+                    ],
+                    "all_union": [
+                        "scale_normal"
+                    ],
+                    "all_bar": [
+                        "scale_normal"
+                    ],
+                    "all_salon": [
+                        "scale_normal"
+                    ],
+                    "all_club": [
+                        "scale_normal"
+                    ],
+                    "all_gym": [
+                        "scale_normal"
+                    ],
+                    "all_station": [
+                        "scale_normal"
+                    ],
+                    "all_cafe": [
+                        "scale_normal"
+                    ],
+                    "all_building": [
+                        "scale_normal"
+                    ],
+                    "all_cleaning": [
+                        "scale_normal"
+                    ],
+                    "all_office": [
+                        "scale_normal"
+                    ],
+                    "all_organization": [
+                        "scale_normal"
+                    ],
+                    "church_cathedral": [
+                        "scale_normal"
+                    ],
+                    "all_agencies": [
+                        "scale_normal"
+                    ],
+                    "college_university": [
+                        "scale_normal"
+                    ],
+                    "all_estate": [
+                        "scale_normal"
+                    ],
+                    "community_services_non_profits": [
+                        "scale_normal"
+                    ],
+                    "all_dentist": [
+                        "scale_normal"
+                    ],
+                    "health_and_medical": [
+                        "scale_normal"
+                    ],
+                    "hotel": [
+                        "scale_normal"
+                    ],
+                    "all_pub": [
+                        "scale_normal"
+                    ],
+                    "lawyer": [
+                        "scale_normal"
+                    ],
+                    "all_development": [
+                        "scale_normal"
+                    ],
+                    "shopping": [
+                        "scale_normal"
+                    ],
+                    "theatre": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.3.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "2a66d31f-da74-442b-ab16-c46b1b70c185",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 5,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "num_buildings": [
+                    "scale_normal"
+                ],
+                "num_places": [
+                    "scale_normal"
+                ],
+                "population": [
+                    "scale_normal"
+                ],
+                "all_service": [
+                    "scale_normal"
+                ],
+                "all_center": [
+                    "scale_normal"
+                ],
+                "all_services": [
+                    "scale_normal"
+                ],
+                "all_store": [
+                    "scale_normal"
+                ],
+                "all_agency": [
+                    "scale_normal"
+                ],
+                "all_restaurant": [
+                    "scale_normal"
+                ],
+                "all_production": [
+                    "scale_normal"
+                ],
+                "all_repair": [
+                    "scale_normal"
+                ],
+                "airport": [
+                    "scale_normal"
+                ],
+                "all_lounge": [
+                    "scale_normal"
+                ],
+                "all_park": [
+                    "scale_normal"
+                ],
+                "all_hospital": [
+                    "scale_normal"
+                ],
+                "all_designer": [
+                    "scale_normal"
+                ],
+                "art_gallery": [
+                    "scale_normal"
+                ],
+                "all_school": [
+                    "scale_normal"
+                ],
+                "all_shop": [
+                    "scale_normal"
+                ],
+                "all_company": [
+                    "scale_normal"
+                ],
+                "all_union": [
+                    "scale_normal"
+                ],
+                "all_bar": [
+                    "scale_normal"
+                ],
+                "all_salon": [
+                    "scale_normal"
+                ],
+                "all_club": [
+                    "scale_normal"
+                ],
+                "all_gym": [
+                    "scale_normal"
+                ],
+                "all_station": [
+                    "scale_normal"
+                ],
+                "all_cafe": [
+                    "scale_normal"
+                ],
+                "all_building": [
+                    "scale_normal"
+                ],
+                "all_cleaning": [
+                    "scale_normal"
+                ],
+                "all_office": [
+                    "scale_normal"
+                ],
+                "all_organization": [
+                    "scale_normal"
+                ],
+                "church_cathedral": [
+                    "scale_normal"
+                ],
+                "all_agencies": [
+                    "scale_normal"
+                ],
+                "college_university": [
+                    "scale_normal"
+                ],
+                "all_estate": [
+                    "scale_normal"
+                ],
+                "community_services_non_profits": [
+                    "scale_normal"
+                ],
+                "all_dentist": [
+                    "scale_normal"
+                ],
+                "health_and_medical": [
+                    "scale_normal"
+                ],
+                "hotel": [
+                    "scale_normal"
+                ],
+                "all_pub": [
+                    "scale_normal"
+                ],
+                "lawyer": [
+                    "scale_normal"
+                ],
+                "all_development": [
+                    "scale_normal"
+                ],
+                "shopping": [
+                    "scale_normal"
+                ],
+                "theatre": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "X_path": "automl_results_v2/office_employment_density_category_cleaned/X.data",
+            "y_path": "automl_results_v2/office_employment_density_category_cleaned/y.data",
+            "results_path": "automl_results_v2/office_employment_density_category_cleaned/"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "dense_1_size": 32,
+            "dense_2_size": 16,
+            "learning_rate": 0.05,
+            "seed": 5,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 2,
+        "name": "5_Default_NeuralNetwork",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 360.0
+    },
+    "saved": [
+        "5_Default_NeuralNetwork/learner_fold_0.neural_network"
+    ],
+    "predictions_fname": "5_Default_NeuralNetwork/predictions_validation.csv",
+    "metric_name": "rmse",
+    "final_loss": "0.008491522839527765",
+    "train_time": 6.182604074478149,
+    "is_stacked": false,
+    "joblib_version": "1.3.2"
+}

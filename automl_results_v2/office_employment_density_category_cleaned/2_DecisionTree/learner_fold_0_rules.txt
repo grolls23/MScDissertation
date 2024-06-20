@@ -1,0 +1,16 @@
+if (all_company <= 10.5) and (all_media <= 1.5) and (all_development <= 1.5) then response: 0.001 | based on 2,801 samples
+
+if (all_company <= 10.5) and (all_media <= 1.5) and (all_development > 1.5) then response: 0.014 | based on 63 samples
+
+if (all_company > 10.5) and (retail_total_area <= 0.0) and (all_dentist <= 8.5) then response: 0.063 | based on 16 samples
+
+if (all_company <= 10.5) and (all_media > 1.5) and (all_rentals <= 0.5) then response: 0.024 | based on 12 samples
+
+if (all_company <= 10.5) and (all_media > 1.5) and (all_rentals > 0.5) then response: 0.094 | based on 4 samples
+
+if (all_company > 10.5) and (retail_total_area > 0.0) and (all_home > 0.5) then response: 0.198 | based on 2 samples
+
+if (all_company > 10.5) and (retail_total_area <= 0.0) and (all_dentist > 8.5) then response: 0.127 | based on 2 samples
+
+if (all_company > 10.5) and (retail_total_area > 0.0) and (all_home <= 0.5) then response: 0.175 | based on 1 samples
+

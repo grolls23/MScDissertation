@@ -1,0 +1,16 @@
+if (all_development <= 5.5) and (retail_lsoa_area_ratio <= 0.014) and (public_relations <= 3.0) then response: 0.003 | based on 2,811 samples
+
+if (all_development <= 5.5) and (retail_lsoa_area_ratio > 0.014) and (all_lsoa_area_ratio <= 0.428) then response: 0.018 | based on 39 samples
+
+if (all_development <= 5.5) and (retail_lsoa_area_ratio > 0.014) and (all_lsoa_area_ratio > 0.428) then response: 0.063 | based on 22 samples
+
+if (all_development > 5.5) and (all_development <= 15.5) and (commercial_lsoa_area_ratio > 0.02) then response: 0.106 | based on 12 samples
+
+if (all_development > 5.5) and (all_development <= 15.5) and (commercial_lsoa_area_ratio <= 0.02) then response: 0.045 | based on 6 samples
+
+if (all_development > 5.5) and (all_development > 15.5) and (retail_lsoa_area_ratio > 0.046) then response: 0.214 | based on 5 samples
+
+if (all_development > 5.5) and (all_development > 15.5) and (retail_lsoa_area_ratio <= 0.046) then response: 0.121 | based on 5 samples
+
+if (all_development <= 5.5) and (retail_lsoa_area_ratio <= 0.014) and (public_relations > 3.0) then response: 0.157 | based on 1 samples
+

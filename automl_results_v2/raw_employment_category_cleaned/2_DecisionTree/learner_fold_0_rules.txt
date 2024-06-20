@@ -1,0 +1,10 @@
+if (all_education <= 26.0) and (num_places <= 936.0) and (num_places <= 410.0) then response: 723.249 | based on 2,858 samples
+
+if (all_education <= 26.0) and (num_places <= 936.0) and (num_places > 410.0) then response: 15082.667 | based on 30 samples
+
+if (all_education <= 26.0) and (num_places > 936.0) and (population > 1788.5) then response: 37840.714 | based on 7 samples
+
+if (all_education <= 26.0) and (num_places > 936.0) and (population <= 1788.5) then response: 67234.0 | based on 5 samples
+
+if (all_education > 26.0) then response: 383975.0 | based on 1 samples
+
