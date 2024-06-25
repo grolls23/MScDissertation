@@ -1,0 +1,617 @@
+{
+    "fit_level": "simple_algorithms",
+    "time_controller": {
+        "total_time_limit": 3600,
+        "model_time_limit": null,
+        "steps": [
+            "simple_algorithms",
+            "default_algorithms",
+            "ensemble"
+        ],
+        "algorithms": [
+            "Baseline",
+            "Decision Tree",
+            "Random Forest",
+            "Xgboost",
+            "Neural Network"
+        ],
+        "spend": [
+            {
+                "model_name": "prepare_data",
+                "model_type": "prepare_data",
+                "fit_level": "prepare_data",
+                "train_time": 0.4148271083831787
+            },
+            {
+                "model_name": "1_Baseline",
+                "model_type": "Baseline",
+                "fit_level": "simple_algorithms",
+                "train_time": 1.2330360412597656
+            },
+            {
+                "model_name": "2_DecisionTree",
+                "model_type": "Decision Tree",
+                "fit_level": "simple_algorithms",
+                "train_time": 15.281709909439087
+            }
+        ],
+        "is_hill_climbing": false,
+        "is_stacking": false
+    },
+    "all_params": {
+        "simple_algorithms": [
+            {
+                "additional": {
+                    "max_steps": 1,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "category_list_agricultural_cooperatives": [
+                            "remove_column"
+                        ],
+                        "category_list_airlines": [
+                            "remove_column"
+                        ],
+                        "category_list_airport_lounge": [
+                            "remove_column"
+                        ],
+                        "category_list_altering_and_remodeling_contractor": [
+                            "remove_column"
+                        ],
+                        "category_list_animal_rescue_service": [
+                            "remove_column"
+                        ],
+                        "category_list_art_restoration_service": [
+                            "remove_column"
+                        ],
+                        "category_list_auto_loan_provider": [
+                            "remove_column"
+                        ],
+                        "category_list_automobile_registration_service": [
+                            "remove_column"
+                        ],
+                        "category_list_background_check_services": [
+                            "remove_column"
+                        ],
+                        "category_list_bankruptcy_law": [
+                            "remove_column"
+                        ],
+                        "category_list_bicycle_sharing_location": [
+                            "remove_column"
+                        ],
+                        "category_list_bookbinding": [
+                            "remove_column"
+                        ],
+                        "category_list_brazilian_restaurant": [
+                            "remove_column"
+                        ],
+                        "category_list_business_banking_service": [
+                            "remove_column"
+                        ],
+                        "category_list_business_storage_and_transportation": [
+                            "remove_column"
+                        ],
+                        "category_list_campground": [
+                            "remove_column"
+                        ],
+                        "category_list_car_stereo_store": [
+                            "remove_column"
+                        ],
+                        "category_list_champagne_bar": [
+                            "remove_column"
+                        ],
+                        "category_list_check_cashing_payday_loans": [
+                            "remove_column"
+                        ],
+                        "category_list_chicken_wings_restaurant": [
+                            "remove_column"
+                        ],
+                        "category_list_chinese_martial_arts_club": [
+                            "remove_column"
+                        ],
+                        "category_list_coffee_and_tea_supplies": [
+                            "remove_column"
+                        ],
+                        "category_list_consultant_and_general_service": [
+                            "remove_column"
+                        ],
+                        "category_list_crane_services": [
+                            "remove_column"
+                        ],
+                        "category_list_custom_clothing": [
+                            "remove_column"
+                        ],
+                        "category_list_dialysis_clinic": [
+                            "remove_column"
+                        ],
+                        "category_list_driving_range": [
+                            "remove_column"
+                        ],
+                        "category_list_elevator_service": [
+                            "remove_column"
+                        ],
+                        "category_list_estate_liquidation": [
+                            "remove_column"
+                        ],
+                        "category_list_european_restaurant": [
+                            "remove_column"
+                        ],
+                        "category_list_executive_search_consultants": [
+                            "remove_column"
+                        ],
+                        "category_list_farm_equipment_and_supply": [
+                            "remove_column"
+                        ],
+                        "category_list_fastener_supplier": [
+                            "remove_column"
+                        ],
+                        "category_list_fencing_club": [
+                            "remove_column"
+                        ],
+                        "category_list_freight_forwarding_agency": [
+                            "remove_column"
+                        ],
+                        "category_list_gemstone_and_mineral": [
+                            "remove_column"
+                        ],
+                        "category_list_gold_buyer": [
+                            "remove_column"
+                        ],
+                        "category_list_grain_elevators": [
+                            "remove_column"
+                        ],
+                        "category_list_hair_loss_center": [
+                            "remove_column"
+                        ],
+                        "category_list_handyman": [
+                            "remove_column"
+                        ],
+                        "category_list_hat_shop": [
+                            "remove_column"
+                        ],
+                        "category_list_hawaiian_restaurant": [
+                            "remove_column"
+                        ],
+                        "category_list_himalayan_nepalese_restaurant": [
+                            "remove_column"
+                        ],
+                        "category_list_historical_tours": [
+                            "remove_column"
+                        ],
+                        "category_list_horseback_riding_service": [
+                            "remove_column"
+                        ],
+                        "category_list_iron_and_steel_industry": [
+                            "remove_column"
+                        ],
+                        "category_list_it_consultant": [
+                            "remove_column"
+                        ],
+                        "category_list_japanese_confectionery_shop": [
+                            "remove_column"
+                        ],
+                        "category_list_jehovahs_witness_kingdom_hall": [
+                            "remove_column"
+                        ],
+                        "category_list_kids_hair_salon": [
+                            "remove_column"
+                        ],
+                        "category_list_lumber_store": [
+                            "remove_column"
+                        ],
+                        "category_list_optical_wholesaler": [
+                            "remove_column"
+                        ],
+                        "category_list_outdoor_furniture_store": [
+                            "remove_column"
+                        ],
+                        "category_list_paternity_tests_and_services": [
+                            "remove_column"
+                        ],
+                        "category_list_patio_covers": [
+                            "remove_column"
+                        ],
+                        "category_list_pets": [
+                            "remove_column"
+                        ],
+                        "category_list_pipe_supplier": [
+                            "remove_column"
+                        ],
+                        "category_list_pool_hall": [
+                            "remove_column"
+                        ],
+                        "category_list_private_equity_firm": [
+                            "remove_column"
+                        ],
+                        "category_list_reflexology": [
+                            "remove_column"
+                        ],
+                        "category_list_road_structures_and_services": [
+                            "remove_column"
+                        ],
+                        "category_list_sand_and_gravel_supplier": [
+                            "remove_column"
+                        ],
+                        "category_list_scottish_restaurant": [
+                            "remove_column"
+                        ],
+                        "category_list_self_defense_classes": [
+                            "remove_column"
+                        ],
+                        "category_list_shredding_services": [
+                            "remove_column"
+                        ],
+                        "category_list_sightseeing_tour_agency": [
+                            "remove_column"
+                        ],
+                        "category_list_skate_shop": [
+                            "remove_column"
+                        ],
+                        "category_list_spiritual_shop": [
+                            "remove_column"
+                        ],
+                        "category_list_sports_school": [
+                            "remove_column"
+                        ],
+                        "category_list_tai_chi_studio": [
+                            "remove_column"
+                        ],
+                        "category_list_talent_agency": [
+                            "remove_column"
+                        ],
+                        "category_list_town_car_service": [
+                            "remove_column"
+                        ],
+                        "category_list_town_hall": [
+                            "remove_column"
+                        ],
+                        "category_list_trains": [
+                            "remove_column"
+                        ],
+                        "category_list_truck_dealer": [
+                            "remove_column"
+                        ],
+                        "category_list_video_and_video_game_rentals": [
+                            "remove_column"
+                        ],
+                        "category_list_watch_repair_service": [
+                            "remove_column"
+                        ],
+                        "category_list_water_delivery": [
+                            "remove_column"
+                        ],
+                        "category_list_water_supplier": [
+                            "remove_column"
+                        ],
+                        "category_list_waterproofing": [
+                            "remove_column"
+                        ],
+                        "category_list_web_hosting_service": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "split",
+                    "train_ratio": 0.75,
+                    "shuffle": true,
+                    "X_path": "automl_results_bham/basic_building_categories/X.data",
+                    "y_path": "automl_results_bham/basic_building_categories/y.data",
+                    "results_path": "automl_results_bham/basic_building_categories/"
+                },
+                "learner": {
+                    "model_type": "Baseline",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 2,
+                "name": "1_Baseline",
+                "status": "trained",
+                "final_loss": 2314.8839132123067,
+                "train_time": 1.3404710292816162,
+                "data_type": "original",
+                "max_time_for_learner": 360.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 1,
+                    "train_cant_improve_limit": 0,
+                    "max_steps": 1,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "population": [
+                            "text_transform"
+                        ],
+                        "category_list_agricultural_cooperatives": [
+                            "remove_column"
+                        ],
+                        "category_list_airlines": [
+                            "remove_column"
+                        ],
+                        "category_list_airport_lounge": [
+                            "remove_column"
+                        ],
+                        "category_list_altering_and_remodeling_contractor": [
+                            "remove_column"
+                        ],
+                        "category_list_animal_rescue_service": [
+                            "remove_column"
+                        ],
+                        "category_list_art_restoration_service": [
+                            "remove_column"
+                        ],
+                        "category_list_auto_loan_provider": [
+                            "remove_column"
+                        ],
+                        "category_list_automobile_registration_service": [
+                            "remove_column"
+                        ],
+                        "category_list_background_check_services": [
+                            "remove_column"
+                        ],
+                        "category_list_bankruptcy_law": [
+                            "remove_column"
+                        ],
+                        "category_list_bicycle_sharing_location": [
+                            "remove_column"
+                        ],
+                        "category_list_bookbinding": [
+                            "remove_column"
+                        ],
+                        "category_list_brazilian_restaurant": [
+                            "remove_column"
+                        ],
+                        "category_list_business_banking_service": [
+                            "remove_column"
+                        ],
+                        "category_list_business_storage_and_transportation": [
+                            "remove_column"
+                        ],
+                        "category_list_campground": [
+                            "remove_column"
+                        ],
+                        "category_list_car_stereo_store": [
+                            "remove_column"
+                        ],
+                        "category_list_champagne_bar": [
+                            "remove_column"
+                        ],
+                        "category_list_check_cashing_payday_loans": [
+                            "remove_column"
+                        ],
+                        "category_list_chicken_wings_restaurant": [
+                            "remove_column"
+                        ],
+                        "category_list_chinese_martial_arts_club": [
+                            "remove_column"
+                        ],
+                        "category_list_coffee_and_tea_supplies": [
+                            "remove_column"
+                        ],
+                        "category_list_consultant_and_general_service": [
+                            "remove_column"
+                        ],
+                        "category_list_crane_services": [
+                            "remove_column"
+                        ],
+                        "category_list_custom_clothing": [
+                            "remove_column"
+                        ],
+                        "category_list_dialysis_clinic": [
+                            "remove_column"
+                        ],
+                        "category_list_driving_range": [
+                            "remove_column"
+                        ],
+                        "category_list_elevator_service": [
+                            "remove_column"
+                        ],
+                        "category_list_estate_liquidation": [
+                            "remove_column"
+                        ],
+                        "category_list_european_restaurant": [
+                            "remove_column"
+                        ],
+                        "category_list_executive_search_consultants": [
+                            "remove_column"
+                        ],
+                        "category_list_farm_equipment_and_supply": [
+                            "remove_column"
+                        ],
+                        "category_list_fastener_supplier": [
+                            "remove_column"
+                        ],
+                        "category_list_fencing_club": [
+                            "remove_column"
+                        ],
+                        "category_list_freight_forwarding_agency": [
+                            "remove_column"
+                        ],
+                        "category_list_gemstone_and_mineral": [
+                            "remove_column"
+                        ],
+                        "category_list_gold_buyer": [
+                            "remove_column"
+                        ],
+                        "category_list_grain_elevators": [
+                            "remove_column"
+                        ],
+                        "category_list_hair_loss_center": [
+                            "remove_column"
+                        ],
+                        "category_list_handyman": [
+                            "remove_column"
+                        ],
+                        "category_list_hat_shop": [
+                            "remove_column"
+                        ],
+                        "category_list_hawaiian_restaurant": [
+                            "remove_column"
+                        ],
+                        "category_list_himalayan_nepalese_restaurant": [
+                            "remove_column"
+                        ],
+                        "category_list_historical_tours": [
+                            "remove_column"
+                        ],
+                        "category_list_horseback_riding_service": [
+                            "remove_column"
+                        ],
+                        "category_list_iron_and_steel_industry": [
+                            "remove_column"
+                        ],
+                        "category_list_it_consultant": [
+                            "remove_column"
+                        ],
+                        "category_list_japanese_confectionery_shop": [
+                            "remove_column"
+                        ],
+                        "category_list_jehovahs_witness_kingdom_hall": [
+                            "remove_column"
+                        ],
+                        "category_list_kids_hair_salon": [
+                            "remove_column"
+                        ],
+                        "category_list_lumber_store": [
+                            "remove_column"
+                        ],
+                        "category_list_optical_wholesaler": [
+                            "remove_column"
+                        ],
+                        "category_list_outdoor_furniture_store": [
+                            "remove_column"
+                        ],
+                        "category_list_paternity_tests_and_services": [
+                            "remove_column"
+                        ],
+                        "category_list_patio_covers": [
+                            "remove_column"
+                        ],
+                        "category_list_pets": [
+                            "remove_column"
+                        ],
+                        "category_list_pipe_supplier": [
+                            "remove_column"
+                        ],
+                        "category_list_pool_hall": [
+                            "remove_column"
+                        ],
+                        "category_list_private_equity_firm": [
+                            "remove_column"
+                        ],
+                        "category_list_reflexology": [
+                            "remove_column"
+                        ],
+                        "category_list_road_structures_and_services": [
+                            "remove_column"
+                        ],
+                        "category_list_sand_and_gravel_supplier": [
+                            "remove_column"
+                        ],
+                        "category_list_scottish_restaurant": [
+                            "remove_column"
+                        ],
+                        "category_list_self_defense_classes": [
+                            "remove_column"
+                        ],
+                        "category_list_shredding_services": [
+                            "remove_column"
+                        ],
+                        "category_list_sightseeing_tour_agency": [
+                            "remove_column"
+                        ],
+                        "category_list_skate_shop": [
+                            "remove_column"
+                        ],
+                        "category_list_spiritual_shop": [
+                            "remove_column"
+                        ],
+                        "category_list_sports_school": [
+                            "remove_column"
+                        ],
+                        "category_list_tai_chi_studio": [
+                            "remove_column"
+                        ],
+                        "category_list_talent_agency": [
+                            "remove_column"
+                        ],
+                        "category_list_town_car_service": [
+                            "remove_column"
+                        ],
+                        "category_list_town_hall": [
+                            "remove_column"
+                        ],
+                        "category_list_trains": [
+                            "remove_column"
+                        ],
+                        "category_list_truck_dealer": [
+                            "remove_column"
+                        ],
+                        "category_list_video_and_video_game_rentals": [
+                            "remove_column"
+                        ],
+                        "category_list_watch_repair_service": [
+                            "remove_column"
+                        ],
+                        "category_list_water_delivery": [
+                            "remove_column"
+                        ],
+                        "category_list_water_supplier": [
+                            "remove_column"
+                        ],
+                        "category_list_waterproofing": [
+                            "remove_column"
+                        ],
+                        "category_list_web_hosting_service": [
+                            "remove_column"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "split",
+                    "train_ratio": 0.75,
+                    "shuffle": true,
+                    "X_path": "automl_results_bham/basic_building_categories/X.data",
+                    "y_path": "automl_results_bham/basic_building_categories/y.data",
+                    "results_path": "automl_results_bham/basic_building_categories/"
+                },
+                "learner": {
+                    "model_type": "Decision Tree",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "criterion": "squared_error",
+                    "max_depth": 3,
+                    "explain_level": 2
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 2,
+                "name": "2_DecisionTree",
+                "status": "trained",
+                "final_loss": 1849.7043014669873,
+                "train_time": 15.468024730682373,
+                "data_type": "original",
+                "max_time_for_learner": 360.0
+            }
+        ]
+    },
+    "adjust_validation": false
+}

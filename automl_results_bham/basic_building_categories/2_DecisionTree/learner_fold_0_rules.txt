@@ -1,0 +1,14 @@
+if (category_list_college_university <= 6.0) and (all_total_area <= 0.0) and (num_places <= 101.0) then response: 287.975 | based on 321 samples
+
+if (category_list_college_university <= 6.0) and (all_total_area > 0.0) and (category_list_marketing_consultant <= 0.5) then response: 1943.281 | based on 32 samples
+
+if (category_list_college_university <= 6.0) and (all_total_area <= 0.0) and (num_places > 101.0) then response: 1483.75 | based on 16 samples
+
+if (category_list_college_university <= 6.0) and (all_total_area > 0.0) and (category_list_marketing_consultant > 0.5) then response: 4816.5 | based on 10 samples
+
+if (category_list_college_university > 6.0) and (category_list_private_investigation <= 0.5) and (category_list_bicycle_shop > 0.5) then response: 13317.5 | based on 2 samples
+
+if (category_list_college_university > 6.0) and (category_list_private_investigation > 0.5) then response: 19305.0 | based on 1 samples
+
+if (category_list_college_university > 6.0) and (category_list_private_investigation <= 0.5) and (category_list_bicycle_shop <= 0.5) then response: 12585.0 | based on 1 samples
+
