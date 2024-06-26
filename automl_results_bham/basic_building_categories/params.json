@@ -38,11 +38,16 @@
     "saved": [
         "1_Baseline",
         "2_DecisionTree",
-        "3_Default_Xgboost"
+        "3_Default_Xgboost",
+        "4_Default_NeuralNetwork",
+        "5_Default_RandomForest",
+        "Ensemble"
     ],
-    "fit_level": "default_algorithms",
-    "best_model": "3_Default_Xgboost",
+    "fit_level": "finished",
+    "best_model": "Ensemble",
     "load_on_predict": [
-        "3_Default_Xgboost"
+        "3_Default_Xgboost",
+        "4_Default_NeuralNetwork",
+        "Ensemble"
     ]
 }

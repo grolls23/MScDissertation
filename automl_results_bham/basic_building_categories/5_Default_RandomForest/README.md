@@ -1,10 +1,15 @@
-# Summary of 1_Baseline
+# Summary of 5_Default_RandomForest
 
 [<< Go back](../README.md)
 
 
-## Baseline Regressor (Baseline)
+## Random Forest
 - **n_jobs**: -1
+- **criterion**: squared_error
+- **max_features**: 0.9
+- **min_samples_split**: 30
+- **max_depth**: 4
+- **eval_metric_name**: rmse
 - **explain_level**: 2
 
 ## Validation
@@ -17,21 +22,24 @@ rmse
 
 ## Training time
 
-2.1 seconds
+38.3 seconds
 
 ### Metric details:
 | Metric   |          Score |
 |:---------|---------------:|
-| MAE      |  912.634       |
-| MSE      |    5.35869e+06 |
-| RMSE     | 2314.88        |
-| R2       |   -0.00101896  |
-| MAPE     |    5.23733e+16 |
+| MAE      |  470.58        |
+| MSE      |    3.46083e+06 |
+| RMSE     | 1860.33        |
+| R2       |    0.353507    |
+| MAPE     |    4.07837e+15 |
 
 
 
 ## Learning curves
 ![Learning curves](learning_curves.png)
+
+## Permutation-based Importance
+![Permutation-based Importance](permutation_importance.png)
 ## True vs Predicted
 
 ![True vs Predicted](true_vs_predicted.png)

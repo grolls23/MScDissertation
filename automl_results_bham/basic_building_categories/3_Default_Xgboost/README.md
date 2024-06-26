@@ -1,10 +1,17 @@
-# Summary of 1_Baseline
+# Summary of 3_Default_Xgboost
 
 [<< Go back](../README.md)
 
 
-## Baseline Regressor (Baseline)
+## Extreme Gradient Boosting (Xgboost)
 - **n_jobs**: -1
+- **objective**: reg:squarederror
+- **eta**: 0.075
+- **max_depth**: 6
+- **min_child_weight**: 1
+- **subsample**: 1.0
+- **colsample_bytree**: 1.0
+- **eval_metric**: rmse
 - **explain_level**: 2
 
 ## Validation
@@ -17,21 +24,24 @@ rmse
 
 ## Training time
 
-2.1 seconds
+14.3 seconds
 
 ### Metric details:
 | Metric   |          Score |
 |:---------|---------------:|
-| MAE      |  912.634       |
-| MSE      |    5.35869e+06 |
-| RMSE     | 2314.88        |
-| R2       |   -0.00101896  |
-| MAPE     |    5.23733e+16 |
+| MAE      |  477.518       |
+| MSE      |    3.01085e+06 |
+| RMSE     | 1735.18        |
+| R2       |    0.437565    |
+| MAPE     |    2.16402e+15 |
 
 
 
 ## Learning curves
 ![Learning curves](learning_curves.png)
+
+## Permutation-based Importance
+![Permutation-based Importance](permutation_importance.png)
 ## True vs Predicted
 
 ![True vs Predicted](true_vs_predicted.png)

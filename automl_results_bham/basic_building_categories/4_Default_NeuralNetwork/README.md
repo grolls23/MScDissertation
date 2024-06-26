@@ -1,10 +1,13 @@
-# Summary of 1_Baseline
+# Summary of 4_Default_NeuralNetwork
 
 [<< Go back](../README.md)
 
 
-## Baseline Regressor (Baseline)
+## Neural Network
 - **n_jobs**: -1
+- **dense_1_size**: 32
+- **dense_2_size**: 16
+- **learning_rate**: 0.05
 - **explain_level**: 2
 
 ## Validation
@@ -17,21 +20,24 @@ rmse
 
 ## Training time
 
-2.1 seconds
+15.2 seconds
 
 ### Metric details:
 | Metric   |          Score |
 |:---------|---------------:|
-| MAE      |  912.634       |
-| MSE      |    5.35869e+06 |
-| RMSE     | 2314.88        |
-| R2       |   -0.00101896  |
-| MAPE     |    5.23733e+16 |
+| MAE      |  528.423       |
+| MSE      |    3.77621e+06 |
+| RMSE     | 1943.25        |
+| R2       |    0.294592    |
+| MAPE     |    3.96831e+15 |
 
 
 
 ## Learning curves
 ![Learning curves](learning_curves.png)
+
+## Permutation-based Importance
+![Permutation-based Importance](permutation_importance.png)
 ## True vs Predicted
 
 ![True vs Predicted](true_vs_predicted.png)

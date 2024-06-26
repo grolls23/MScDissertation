@@ -1,6 +1,6 @@
 {
-    "uid": "6790413e-8ebe-4edb-8fc4-82230091a063",
-    "name": "2_DecisionTree",
+    "uid": "c7953bcf-0000-47c1-9631-a40076294279",
+    "name": "4_Default_NeuralNetwork",
     "preprocessing": [
         {
             "remove_columns": [
@@ -398,9 +398,498 @@
                     ]
                 }
             ],
+            "scale": [
+                {
+                    "scale": [
+                        199.00133456274992,
+                        69.35092543939821,
+                        1.5435116229759924,
+                        2.8718656471709245,
+                        1.1554638467663703,
+                        1.2283145448747526,
+                        2.2745605804743843,
+                        1.1564133436936117,
+                        1.697577767258339,
+                        0.6539935772392123,
+                        1.0367869728109218,
+                        1.87265431583421,
+                        0.05103086236473123,
+                        0.07207401431771415,
+                        0.07207401431771415,
+                        0.07207401431771415,
+                        0.1016601688455968,
+                        0.07207401431771415,
+                        0.08815636039756726,
+                        0.07207401431771415,
+                        0.07207401431771417,
+                        0.07207401431771415,
+                        0.08815636039756725,
+                        0.08815636039756726,
+                        0.08815636039756726,
+                        0.07207401431771417,
+                        0.07207401431771417,
+                        0.07207401431771415,
+                        0.08815636039756726,
+                        0.07207401431771417,
+                        0.07207401431771415,
+                        0.07207401431771417,
+                        0.08815636039756726,
+                        0.1016601688455968,
+                        0.07207401431771417,
+                        0.1016601688455968,
+                        0.07207401431771415,
+                        0.07207401431771417,
+                        0.07207401431771415,
+                        0.07207401431771417,
+                        0.07207401431771415,
+                        0.07207401431771415,
+                        0.12417881932735367,
+                        0.07207401431771415,
+                        0.07207401431771417,
+                        0.07207401431771417,
+                        0.07207401431771417,
+                        0.07207401431771417,
+                        0.07207401431771417,
+                        0.07207401431771417,
+                        0.07207401431771417,
+                        0.07207401431771417,
+                        0.07207401431771417,
+                        0.08815636039756726,
+                        0.08815636039756726,
+                        0.07207401431771417,
+                        0.05103086236473122,
+                        0.07207401431771417,
+                        0.05103086236473123,
+                        0.051030862364731235,
+                        0.051030862364731214,
+                        0.05103086236473123,
+                        0.07207401431771417,
+                        0.05103086236473123,
+                        0.07207401431771415,
+                        0.07207401431771417,
+                        0.07207401431771415,
+                        0.05103086236473122,
+                        0.07207401431771415,
+                        0.05103086236473122,
+                        0.05103086236473122,
+                        0.05103086236473123,
+                        0.05103086236473122,
+                        0.05103086236473123,
+                        0.05103086236473123,
+                        0.08815636039756725,
+                        0.05103086236473122,
+                        0.05103086236473122,
+                        0.05103086236473122,
+                        0.07207401431771417,
+                        0.07207401431771415,
+                        0.07207401431771415,
+                        0.05103086236473122,
+                        0.07207401431771415,
+                        0.05103086236473122,
+                        0.051030862364731214,
+                        0.07207401431771415,
+                        0.08815636039756725,
+                        0.051030862364731235,
+                        0.07207401431771415,
+                        0.051030862364731214,
+                        0.07207401431771417,
+                        0.07207401431771415,
+                        0.07207401431771415,
+                        0.07207401431771417,
+                        0.05103086236473123,
+                        0.07207401431771415,
+                        0.07207401431771415,
+                        0.07207401431771417,
+                        0.07207401431771415,
+                        0.07207401431771415,
+                        0.07207401431771417,
+                        0.08815636039756725,
+                        0.07207401431771417,
+                        0.07207401431771417,
+                        0.07207401431771417,
+                        0.07207401431771415,
+                        0.07207401431771417,
+                        0.07207401431771415,
+                        0.05103086236473123,
+                        0.07207401431771417,
+                        0.07207401431771417
+                    ],
+                    "mean": [
+                        415.2532637075718,
+                        47.284595300261095,
+                        0.6997389033942559,
+                        1.7336814621409922,
+                        0.5326370757180157,
+                        0.6762402088772846,
+                        0.32114882506527415,
+                        0.5639686684073107,
+                        0.4908616187989556,
+                        0.1462140992167102,
+                        0.48825065274151436,
+                        0.6501305483028721,
+                        0.0026109660574412533,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.010443864229765013,
+                        0.005221932114882507,
+                        0.007832898172323759,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.007832898172323759,
+                        0.007832898172323759,
+                        0.007832898172323759,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.007832898172323759,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.007832898172323759,
+                        0.010443864229765013,
+                        0.005221932114882507,
+                        0.010443864229765013,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.015665796344647518,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.007832898172323759,
+                        0.007832898172323759,
+                        0.005221932114882507,
+                        0.0026109660574412533,
+                        0.005221932114882507,
+                        0.0026109660574412533,
+                        0.0026109660574412533,
+                        0.0026109660574412533,
+                        0.0026109660574412533,
+                        0.005221932114882507,
+                        0.0026109660574412533,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.0026109660574412533,
+                        0.005221932114882507,
+                        0.0026109660574412533,
+                        0.0026109660574412533,
+                        0.0026109660574412533,
+                        0.0026109660574412533,
+                        0.0026109660574412533,
+                        0.0026109660574412533,
+                        0.007832898172323759,
+                        0.0026109660574412533,
+                        0.0026109660574412533,
+                        0.0026109660574412533,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.0026109660574412533,
+                        0.005221932114882507,
+                        0.0026109660574412533,
+                        0.0026109660574412533,
+                        0.005221932114882507,
+                        0.007832898172323759,
+                        0.0026109660574412533,
+                        0.005221932114882507,
+                        0.0026109660574412533,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.0026109660574412533,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.007832898172323759,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.005221932114882507,
+                        0.0026109660574412533,
+                        0.005221932114882507,
+                        0.005221932114882507
+                    ],
+                    "var": [
+                        39601.531157755526,
+                        4809.55085930097,
+                        2.3824281302619825,
+                        8.247612295400472,
+                        1.335096701184138,
+                        1.5087566211508703,
+                        5.173625834247967,
+                        1.3372918214726393,
+                        2.8817702758898074,
+                        0.42770759907014144,
+                        1.0749272269904353,
+                        3.506834186612493,
+                        0.0026041489136881418,
+                        0.005194663539870065,
+                        0.005194663539870065,
+                        0.005194663539870065,
+                        0.01033478992971525,
+                        0.005194663539870065,
+                        0.007771543878545765,
+                        0.005194663539870065,
+                        0.005194663539870066,
+                        0.005194663539870065,
+                        0.007771543878545764,
+                        0.007771543878545766,
+                        0.007771543878545765,
+                        0.005194663539870066,
+                        0.005194663539870067,
+                        0.005194663539870065,
+                        0.007771543878545765,
+                        0.005194663539870067,
+                        0.005194663539870065,
+                        0.005194663539870066,
+                        0.007771543878545765,
+                        0.01033478992971525,
+                        0.005194663539870066,
+                        0.01033478992971525,
+                        0.005194663539870065,
+                        0.005194663539870066,
+                        0.005194663539870065,
+                        0.005194663539870067,
+                        0.005194663539870065,
+                        0.005194663539870065,
+                        0.015420379169535545,
+                        0.005194663539870065,
+                        0.005194663539870066,
+                        0.005194663539870067,
+                        0.005194663539870066,
+                        0.005194663539870067,
+                        0.005194663539870067,
+                        0.005194663539870066,
+                        0.005194663539870066,
+                        0.005194663539870066,
+                        0.005194663539870066,
+                        0.007771543878545766,
+                        0.007771543878545765,
+                        0.005194663539870066,
+                        0.0026041489136881413,
+                        0.005194663539870066,
+                        0.0026041489136881418,
+                        0.0026041489136881426,
+                        0.0026041489136881405,
+                        0.0026041489136881418,
+                        0.005194663539870067,
+                        0.0026041489136881418,
+                        0.005194663539870065,
+                        0.005194663539870066,
+                        0.005194663539870065,
+                        0.0026041489136881413,
+                        0.005194663539870065,
+                        0.0026041489136881413,
+                        0.0026041489136881413,
+                        0.002604148913688142,
+                        0.0026041489136881413,
+                        0.002604148913688142,
+                        0.0026041489136881418,
+                        0.007771543878545764,
+                        0.0026041489136881413,
+                        0.0026041489136881413,
+                        0.0026041489136881413,
+                        0.005194663539870067,
+                        0.005194663539870065,
+                        0.005194663539870065,
+                        0.0026041489136881413,
+                        0.005194663539870065,
+                        0.0026041489136881413,
+                        0.0026041489136881405,
+                        0.005194663539870065,
+                        0.007771543878545763,
+                        0.0026041489136881426,
+                        0.005194663539870065,
+                        0.0026041489136881405,
+                        0.005194663539870066,
+                        0.005194663539870065,
+                        0.005194663539870065,
+                        0.005194663539870066,
+                        0.002604148913688142,
+                        0.005194663539870065,
+                        0.005194663539870065,
+                        0.005194663539870066,
+                        0.005194663539870065,
+                        0.005194663539870065,
+                        0.005194663539870066,
+                        0.007771543878545764,
+                        0.005194663539870066,
+                        0.005194663539870066,
+                        0.005194663539870066,
+                        0.005194663539870065,
+                        0.005194663539870066,
+                        0.005194663539870065,
+                        0.0026041489136881418,
+                        0.005194663539870067,
+                        0.005194663539870066
+                    ],
+                    "n_samples_seen": 383,
+                    "n_features_in": 112,
+                    "columns": [
+                        "num_buildings",
+                        "num_places",
+                        "category_list_automotive_repair",
+                        "category_list_beauty_salon",
+                        "category_list_cafe",
+                        "category_list_church_cathedral",
+                        "category_list_college_university",
+                        "category_list_community_services_non_profits",
+                        "category_list_hospital",
+                        "category_list_jewelry_store",
+                        "category_list_park",
+                        "category_list_professional_services",
+                        "population_000",
+                        "population_064",
+                        "population_163",
+                        "population_374",
+                        "population_412",
+                        "population_415",
+                        "population_426",
+                        "population_439",
+                        "population_452",
+                        "population_479",
+                        "population_481",
+                        "population_485",
+                        "population_486",
+                        "population_493",
+                        "population_494",
+                        "population_499",
+                        "population_508",
+                        "population_511",
+                        "population_519",
+                        "population_520",
+                        "population_522",
+                        "population_527",
+                        "population_537",
+                        "population_538",
+                        "population_540",
+                        "population_541",
+                        "population_543",
+                        "population_544",
+                        "population_551",
+                        "population_559",
+                        "population_564",
+                        "population_571",
+                        "population_576",
+                        "population_578",
+                        "population_580",
+                        "population_581",
+                        "population_583",
+                        "population_594",
+                        "population_599",
+                        "population_600",
+                        "population_603",
+                        "population_606",
+                        "population_607",
+                        "population_610",
+                        "population_613",
+                        "population_615",
+                        "population_616",
+                        "population_620",
+                        "population_623",
+                        "population_624",
+                        "population_626",
+                        "population_628",
+                        "population_629",
+                        "population_631",
+                        "population_632",
+                        "population_633",
+                        "population_634",
+                        "population_635",
+                        "population_637",
+                        "population_638",
+                        "population_641",
+                        "population_642",
+                        "population_645",
+                        "population_648",
+                        "population_649",
+                        "population_650",
+                        "population_651",
+                        "population_652",
+                        "population_654",
+                        "population_655",
+                        "population_657",
+                        "population_658",
+                        "population_659",
+                        "population_662",
+                        "population_668",
+                        "population_669",
+                        "population_672",
+                        "population_673",
+                        "population_674",
+                        "population_675",
+                        "population_678",
+                        "population_680",
+                        "population_686",
+                        "population_690",
+                        "population_700",
+                        "population_712",
+                        "population_720",
+                        "population_742",
+                        "population_747",
+                        "population_749",
+                        "population_756",
+                        "population_759",
+                        "population_760",
+                        "population_761",
+                        "population_780",
+                        "population_794",
+                        "population_800",
+                        "population_822",
+                        "population_881",
+                        "population_889"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    1.3637741153704037
+                ],
+                "mean": [
+                    5.57242035158274
+                ],
+                "var": [
+                    1.859879837754327
+                ],
+                "n_samples_seen": 383,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.0
+                ]
+            },
             "ml_task": "regression",
             "params": {
                 "columns_preprocessing": {
+                    "num_buildings": [
+                        "scale_normal"
+                    ],
+                    "num_places": [
+                        "scale_normal"
+                    ],
                     "population": [
                         "text_transform"
                     ],
@@ -428,11 +917,17 @@
                     "category_list_automobile_registration_service": [
                         "remove_column"
                     ],
+                    "category_list_automotive_repair": [
+                        "scale_normal"
+                    ],
                     "category_list_background_check_services": [
                         "remove_column"
                     ],
                     "category_list_bankruptcy_law": [
                         "remove_column"
+                    ],
+                    "category_list_beauty_salon": [
+                        "scale_normal"
                     ],
                     "category_list_bicycle_sharing_location": [
                         "remove_column"
@@ -448,6 +943,9 @@
                     ],
                     "category_list_business_storage_and_transportation": [
                         "remove_column"
+                    ],
+                    "category_list_cafe": [
+                        "scale_normal"
                     ],
                     "category_list_campground": [
                         "remove_column"
@@ -467,8 +965,17 @@
                     "category_list_chinese_martial_arts_club": [
                         "remove_column"
                     ],
+                    "category_list_church_cathedral": [
+                        "scale_normal"
+                    ],
                     "category_list_coffee_and_tea_supplies": [
                         "remove_column"
+                    ],
+                    "category_list_college_university": [
+                        "scale_normal"
+                    ],
+                    "category_list_community_services_non_profits": [
+                        "scale_normal"
                     ],
                     "category_list_consultant_and_general_service": [
                         "remove_column"
@@ -539,6 +1046,9 @@
                     "category_list_horseback_riding_service": [
                         "remove_column"
                     ],
+                    "category_list_hospital": [
+                        "scale_normal"
+                    ],
                     "category_list_iron_and_steel_industry": [
                         "remove_column"
                     ],
@@ -551,6 +1061,9 @@
                     "category_list_jehovahs_witness_kingdom_hall": [
                         "remove_column"
                     ],
+                    "category_list_jewelry_store": [
+                        "scale_normal"
+                    ],
                     "category_list_kids_hair_salon": [
                         "remove_column"
                     ],
@@ -562,6 +1075,9 @@
                     ],
                     "category_list_outdoor_furniture_store": [
                         "remove_column"
+                    ],
+                    "category_list_park": [
+                        "scale_normal"
                     ],
                     "category_list_paternity_tests_and_services": [
                         "remove_column"
@@ -580,6 +1096,9 @@
                     ],
                     "category_list_private_equity_firm": [
                         "remove_column"
+                    ],
+                    "category_list_professional_services": [
+                        "scale_normal"
                     ],
                     "category_list_reflexology": [
                         "remove_column"
@@ -649,7 +1168,8 @@
                     ]
                 },
                 "target_preprocessing": [
-                    "na_exclude"
+                    "na_exclude",
+                    "scale_log_and_normal"
                 ],
                 "ml_task": "regression"
             }
@@ -658,16 +1178,17 @@
     "learners": [
         {
             "library_version": "1.3.2",
-            "algorithm_name": "Decision Tree",
-            "algorithm_short_name": "Decision Tree",
-            "uid": "41bcb42a-e36c-4459-8de1-d9a4406b74e2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "de9bc8fa-6b4f-428d-888a-4deab5158d36",
             "params": {
-                "model_type": "Decision Tree",
+                "model_type": "Neural Network",
                 "ml_task": "regression",
                 "n_jobs": -1,
-                "seed": 1235,
-                "criterion": "squared_error",
-                "max_depth": 3,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 4,
                 "explain_level": 2
             },
             "name": "learner_fold_0"
@@ -675,14 +1196,17 @@
     ],
     "params": {
         "additional": {
-            "trees_in_step": 1,
-            "train_cant_improve_limit": 0,
-            "max_steps": 1,
             "max_rows_limit": null,
             "max_cols_limit": null
         },
         "preprocessing": {
             "columns_preprocessing": {
+                "num_buildings": [
+                    "scale_normal"
+                ],
+                "num_places": [
+                    "scale_normal"
+                ],
                 "population": [
                     "text_transform"
                 ],
@@ -710,11 +1234,17 @@
                 "category_list_automobile_registration_service": [
                     "remove_column"
                 ],
+                "category_list_automotive_repair": [
+                    "scale_normal"
+                ],
                 "category_list_background_check_services": [
                     "remove_column"
                 ],
                 "category_list_bankruptcy_law": [
                     "remove_column"
+                ],
+                "category_list_beauty_salon": [
+                    "scale_normal"
                 ],
                 "category_list_bicycle_sharing_location": [
                     "remove_column"
@@ -730,6 +1260,9 @@
                 ],
                 "category_list_business_storage_and_transportation": [
                     "remove_column"
+                ],
+                "category_list_cafe": [
+                    "scale_normal"
                 ],
                 "category_list_campground": [
                     "remove_column"
@@ -749,8 +1282,17 @@
                 "category_list_chinese_martial_arts_club": [
                     "remove_column"
                 ],
+                "category_list_church_cathedral": [
+                    "scale_normal"
+                ],
                 "category_list_coffee_and_tea_supplies": [
                     "remove_column"
+                ],
+                "category_list_college_university": [
+                    "scale_normal"
+                ],
+                "category_list_community_services_non_profits": [
+                    "scale_normal"
                 ],
                 "category_list_consultant_and_general_service": [
                     "remove_column"
@@ -821,6 +1363,9 @@
                 "category_list_horseback_riding_service": [
                     "remove_column"
                 ],
+                "category_list_hospital": [
+                    "scale_normal"
+                ],
                 "category_list_iron_and_steel_industry": [
                     "remove_column"
                 ],
@@ -833,6 +1378,9 @@
                 "category_list_jehovahs_witness_kingdom_hall": [
                     "remove_column"
                 ],
+                "category_list_jewelry_store": [
+                    "scale_normal"
+                ],
                 "category_list_kids_hair_salon": [
                     "remove_column"
                 ],
@@ -844,6 +1392,9 @@
                 ],
                 "category_list_outdoor_furniture_store": [
                     "remove_column"
+                ],
+                "category_list_park": [
+                    "scale_normal"
                 ],
                 "category_list_paternity_tests_and_services": [
                     "remove_column"
@@ -862,6 +1413,9 @@
                 ],
                 "category_list_private_equity_firm": [
                     "remove_column"
+                ],
+                "category_list_professional_services": [
+                    "scale_normal"
                 ],
                 "category_list_reflexology": [
                     "remove_column"
@@ -931,7 +1485,8 @@
                 ]
             },
             "target_preprocessing": [
-                "na_exclude"
+                "na_exclude",
+                "scale_log_and_normal"
             ],
             "ml_task": "regression"
         },
@@ -944,18 +1499,19 @@
             "results_path": "automl_results_bham/basic_building_categories/"
         },
         "learner": {
-            "model_type": "Decision Tree",
+            "model_type": "Neural Network",
             "ml_task": "regression",
             "n_jobs": -1,
-            "seed": 1235,
-            "criterion": "squared_error",
-            "max_depth": 3,
+            "dense_1_size": 32,
+            "dense_2_size": 16,
+            "learning_rate": 0.05,
+            "seed": 4,
             "explain_level": 2
         },
         "automl_random_state": 1234,
         "ml_task": "regression",
         "explain_level": 2,
-        "name": "2_DecisionTree",
+        "name": "4_Default_NeuralNetwork",
         "status": "initialized",
         "final_loss": null,
         "train_time": null,
@@ -963,12 +1519,12 @@
         "max_time_for_learner": 360.0
     },
     "saved": [
-        "2_DecisionTree/learner_fold_0.decision_tree"
+        "4_Default_NeuralNetwork/learner_fold_0.neural_network"
     ],
-    "predictions_fname": "2_DecisionTree/predictions_validation.csv",
+    "predictions_fname": "4_Default_NeuralNetwork/predictions_validation.csv",
     "metric_name": "rmse",
-    "final_loss": "1849.7043014669873",
-    "train_time": 20.63447070121765,
+    "final_loss": "1943.2484525243456",
+    "train_time": 15.23919415473938,
     "is_stacked": false,
     "joblib_version": "1.3.2"
 }
