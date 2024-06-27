@@ -1,0 +1,14 @@
+if (college_university <= 6.0) and (all_total_area <= 0.0) and (num_places <= 101.0) then response: 287.975 | based on 321 samples
+
+if (college_university <= 6.0) and (all_total_area > 0.0) and (all_consultant <= 0.5) then response: 1889.839 | based on 31 samples
+
+if (college_university <= 6.0) and (all_total_area <= 0.0) and (num_places > 101.0) then response: 1483.75 | based on 16 samples
+
+if (college_university <= 6.0) and (all_total_area > 0.0) and (all_consultant > 0.5) then response: 4705.909 | based on 11 samples
+
+if (college_university > 6.0) and (computer_coaching <= 0.5) and (retail_total_area > 0.0) then response: 13317.5 | based on 2 samples
+
+if (college_university > 6.0) and (computer_coaching > 0.5) then response: 19305.0 | based on 1 samples
+
+if (college_university > 6.0) and (computer_coaching <= 0.5) and (retail_total_area <= 0.0) then response: 12585.0 | based on 1 samples
+

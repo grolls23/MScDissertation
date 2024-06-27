@@ -1,0 +1,12 @@
+if (retail_total_area <= 0.0) and (all_hospital <= 2.5) and (num_places <= 66.5) then response: 0.001 | based on 308 samples
+
+if (retail_total_area <= 0.0) and (all_hospital <= 2.5) and (num_places > 66.5) then response: 0.003 | based on 61 samples
+
+if (retail_total_area <= 0.0) and (all_hospital > 2.5) and (all_service <= 10.0) then response: 0.007 | based on 11 samples
+
+if (retail_total_area > 0.0) and (steakhouse > 0.5) then response: 0.027 | based on 1 samples
+
+if (retail_total_area > 0.0) and (steakhouse <= 0.5) then response: 0.046 | based on 1 samples
+
+if (retail_total_area <= 0.0) and (all_hospital > 2.5) and (all_service > 10.0) then response: 0.022 | based on 1 samples
+

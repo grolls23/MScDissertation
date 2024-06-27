@@ -1,0 +1,16 @@
+if (accountant <= 2.5) and (retail_lsoa_area_ratio <= 0.003) and (num_places <= 139.5) then response: 0.0 | based on 353 samples
+
+if (accountant <= 2.5) and (retail_lsoa_area_ratio <= 0.003) and (num_places > 139.5) then response: 0.001 | based on 15 samples
+
+if (accountant <= 2.5) and (retail_lsoa_area_ratio > 0.003) and (office_lsoa_area_ratio > 0.001) then response: 0.001 | based on 7 samples
+
+if (accountant <= 2.5) and (retail_lsoa_area_ratio > 0.003) and (office_lsoa_area_ratio <= 0.001) then response: 0.004 | based on 3 samples
+
+if (accountant > 2.5) and (hostel <= 0.5) and (art_gallery > 0.5) then response: 0.016 | based on 2 samples
+
+if (accountant > 2.5) and (hostel > 0.5) and (all_club > 4.5) then response: 0.002 | based on 1 samples
+
+if (accountant > 2.5) and (hostel > 0.5) and (all_club <= 4.5) then response: 0.007 | based on 1 samples
+
+if (accountant > 2.5) and (hostel <= 0.5) and (art_gallery <= 0.5) then response: 0.023 | based on 1 samples
+
