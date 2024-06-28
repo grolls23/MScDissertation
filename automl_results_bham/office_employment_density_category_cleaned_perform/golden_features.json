@@ -1,0 +1,224 @@
+{
+    "new_features": [
+        {
+            "feature1": "all_production",
+            "feature2": "all_agency",
+            "operation": "ratio",
+            "score": 0.6895936913
+        },
+        {
+            "feature1": "all_transportation",
+            "feature2": "accountant",
+            "operation": "ratio",
+            "score": 0.7303594854
+        },
+        {
+            "feature1": "spas",
+            "feature2": "all_union",
+            "operation": "multiply",
+            "score": 0.7306665541
+        },
+        {
+            "feature1": "all_station",
+            "feature2": "all_bar",
+            "operation": "ratio",
+            "score": 0.7311221055
+        },
+        {
+            "feature1": "nutritionist",
+            "feature2": "all_architect",
+            "operation": "sum",
+            "score": 0.7314106011
+        },
+        {
+            "feature1": "all_service",
+            "feature2": "art_gallery",
+            "operation": "ratio",
+            "score": 0.7316140276
+        },
+        {
+            "feature1": "art_gallery",
+            "feature2": "all_service",
+            "operation": "ratio",
+            "score": 0.7316285827
+        },
+        {
+            "feature1": "num_places",
+            "feature2": "art_gallery",
+            "operation": "ratio",
+            "score": 0.7316394436
+        },
+        {
+            "feature1": "spas",
+            "feature2": "nurse_practitioner",
+            "operation": "sum",
+            "score": 0.7351402005
+        },
+        {
+            "feature1": "all_broker",
+            "feature2": "all_architect",
+            "operation": "sum",
+            "score": 0.7362415483
+        },
+        {
+            "feature1": "all_agency",
+            "feature2": "all_designer",
+            "operation": "diff",
+            "score": 0.7367362432
+        },
+        {
+            "feature1": "all_union",
+            "feature2": "all_law",
+            "operation": "ratio",
+            "score": 0.7379215452
+        },
+        {
+            "feature1": "nutritionist",
+            "feature2": "general_festivals",
+            "operation": "sum",
+            "score": 0.737923781
+        },
+        {
+            "feature1": "all_care",
+            "feature2": "all_bar",
+            "operation": "multiply",
+            "score": 0.7380563732
+        },
+        {
+            "feature1": "public_plaza",
+            "feature2": "all_architect",
+            "operation": "sum",
+            "score": 0.7390074494
+        },
+        {
+            "feature1": "all_agency",
+            "feature2": "all_planning",
+            "operation": "ratio",
+            "score": 0.7393536192
+        },
+        {
+            "feature1": "art_gallery",
+            "feature2": "num_places",
+            "operation": "ratio",
+            "score": 0.7396235204
+        },
+        {
+            "feature1": "delicatessen",
+            "feature2": "all_architect",
+            "operation": "sum",
+            "score": 0.7399339514
+        },
+        {
+            "feature1": "num_places",
+            "feature2": "all_transportation",
+            "operation": "ratio",
+            "score": 0.7403207717
+        },
+        {
+            "feature1": "casino",
+            "feature2": "all_architect",
+            "operation": "sum",
+            "score": 0.7407883382
+        },
+        {
+            "feature1": "food_stand",
+            "feature2": "all_architect",
+            "operation": "sum",
+            "score": 0.7422416459
+        },
+        {
+            "feature1": "all_agency",
+            "feature2": "arts_and_crafts",
+            "operation": "diff",
+            "score": 0.742965977
+        },
+        {
+            "feature1": "all_union",
+            "feature2": "all_agency",
+            "operation": "multiply",
+            "score": 0.7434381129
+        },
+        {
+            "feature1": "all_bar",
+            "feature2": "all_station",
+            "operation": "ratio",
+            "score": 0.7446046625
+        },
+        {
+            "feature1": "investing",
+            "feature2": "all_architect",
+            "operation": "sum",
+            "score": 0.7447637665
+        },
+        {
+            "feature1": "all_agency",
+            "feature2": "electronics",
+            "operation": "diff",
+            "score": 0.7457690592
+        },
+        {
+            "feature1": "all_agency",
+            "feature2": "all_removal",
+            "operation": "diff",
+            "score": 0.7472224878
+        },
+        {
+            "feature1": "all_services",
+            "feature2": "art_gallery",
+            "operation": "ratio",
+            "score": 0.7476409163
+        },
+        {
+            "feature1": "all_agency",
+            "feature2": "all_manufacturer",
+            "operation": "diff",
+            "score": 0.7482263525
+        },
+        {
+            "feature1": "all_union",
+            "feature2": "all_architect",
+            "operation": "multiply",
+            "score": 0.7493557574
+        },
+        {
+            "feature1": "all_agency",
+            "feature2": "art_gallery",
+            "operation": "ratio",
+            "score": 0.7524315387
+        }
+    ],
+    "new_columns": [
+        "all_production_ratio_all_agency",
+        "all_transportation_ratio_accountant",
+        "spas_multiply_all_union",
+        "all_station_ratio_all_bar",
+        "nutritionist_sum_all_architect",
+        "all_service_ratio_art_gallery",
+        "art_gallery_ratio_all_service",
+        "num_places_ratio_art_gallery",
+        "spas_sum_nurse_practitioner",
+        "all_broker_sum_all_architect",
+        "all_agency_diff_all_designer",
+        "all_union_ratio_all_law",
+        "nutritionist_sum_general_festivals",
+        "all_care_multiply_all_bar",
+        "public_plaza_sum_all_architect",
+        "all_agency_ratio_all_planning",
+        "art_gallery_ratio_num_places",
+        "delicatessen_sum_all_architect",
+        "num_places_ratio_all_transportation",
+        "casino_sum_all_architect",
+        "food_stand_sum_all_architect",
+        "all_agency_diff_arts_and_crafts",
+        "all_union_multiply_all_agency",
+        "all_bar_ratio_all_station",
+        "investing_sum_all_architect",
+        "all_agency_diff_electronics",
+        "all_agency_diff_all_removal",
+        "all_services_ratio_art_gallery",
+        "all_agency_diff_all_manufacturer",
+        "all_union_multiply_all_architect",
+        "all_agency_ratio_art_gallery"
+    ],
+    "ml_task": "regression"
+}

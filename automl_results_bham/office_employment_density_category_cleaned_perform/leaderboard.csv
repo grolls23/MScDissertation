@@ -1,0 +1,84 @@
+name,model_type,metric_type,metric_value,train_time
+1_Default_Xgboost,Xgboost,rmse,0.005275693050572627,5.07
+2_Default_CatBoost,CatBoost,rmse,0.0054924775155677915,5.47
+3_Default_RandomForest,Random Forest,rmse,0.005016766291379643,7.03
+4_Xgboost,Xgboost,rmse,0.004893822648913463,4.39
+8_CatBoost,CatBoost,rmse,0.005579075931074312,14.27
+12_RandomForest,Random Forest,rmse,0.004993520603675134,5.89
+5_Xgboost,Xgboost,rmse,0.0052709657171501915,4.16
+9_CatBoost,CatBoost,rmse,0.005483187690602489,5.96
+13_RandomForest,Random Forest,rmse,0.004780378687423289,9.06
+6_Xgboost,Xgboost,rmse,0.004985661550860967,9.42
+10_CatBoost,CatBoost,rmse,0.005517881636351286,7.78
+14_RandomForest,Random Forest,rmse,0.0050564446052018906,10.2
+7_Xgboost,Xgboost,rmse,0.005544872950791779,4.09
+11_CatBoost,CatBoost,rmse,0.005483140167048482,5.32
+15_RandomForest,Random Forest,rmse,0.0050416096152923855,6.24
+13_RandomForest_GoldenFeatures,Random Forest,rmse,0.00487028492694945,29.64
+4_Xgboost_GoldenFeatures,Xgboost,rmse,0.004671916491190426,4.77
+6_Xgboost_GoldenFeatures,Xgboost,rmse,0.0049830019120313835,4.8
+16_Xgboost_GoldenFeatures,Xgboost,rmse,0.004666228589661492,4.94
+17_Xgboost_GoldenFeatures,Xgboost,rmse,0.004659528860717595,4.79
+18_RandomForest,Random Forest,rmse,0.0049606815311234904,9.23
+19_RandomForest,Random Forest,rmse,0.00479741531028371,8.77
+20_RandomForest_GoldenFeatures,Random Forest,rmse,0.004854333357064853,7.75
+21_RandomForest_GoldenFeatures,Random Forest,rmse,0.00480913557045021,6.84
+22_Xgboost,Xgboost,rmse,0.004905453138429894,5.09
+23_Xgboost,Xgboost,rmse,0.004872212397598075,4.47
+24_Xgboost_GoldenFeatures,Xgboost,rmse,0.004987737576037443,4.72
+25_Xgboost_GoldenFeatures,Xgboost,rmse,0.004988414950480247,4.41
+26_RandomForest,Random Forest,rmse,0.0049701993741630285,6.34
+27_CatBoost,CatBoost,rmse,0.005373143694348268,5.13
+28_CatBoost,CatBoost,rmse,0.005351456282042425,7.1
+29_CatBoost,CatBoost,rmse,0.005413642082720699,6.13
+30_CatBoost,CatBoost,rmse,0.005551223967425901,7.31
+31_CatBoost,CatBoost,rmse,0.005441237448901182,5.51
+32_CatBoost,CatBoost,rmse,0.005436555151895921,6.34
+33_Xgboost_GoldenFeatures,Xgboost,rmse,0.004676013889087335,5.08
+34_Xgboost_GoldenFeatures,Xgboost,rmse,0.004668532810372624,5.97
+35_Xgboost_GoldenFeatures,Xgboost,rmse,0.004660344672009708,5.43
+36_RandomForest,Random Forest,rmse,0.004780379854809038,9.49
+37_RandomForest,Random Forest,rmse,0.004797414853180219,9.19
+38_RandomForest_GoldenFeatures,Random Forest,rmse,0.00480913557045021,6.98
+39_CatBoost,CatBoost,rmse,0.005377145987803676,7.74
+40_Xgboost_GoldenFeatures,Xgboost,rmse,0.004648799981843278,5.17
+41_Xgboost_GoldenFeatures,Xgboost,rmse,0.004670871788163395,5.52
+42_Xgboost_GoldenFeatures,Xgboost,rmse,0.004661143488729395,5.82
+43_Xgboost_GoldenFeatures,Xgboost,rmse,0.004672597718999511,5.23
+44_Xgboost_GoldenFeatures,Xgboost,rmse,0.0046696504317308846,5.25
+45_Xgboost_GoldenFeatures,Xgboost,rmse,0.004673744824569094,6.29
+46_RandomForest,Random Forest,rmse,0.004780380614333993,9.62
+47_RandomForest,Random Forest,rmse,0.004797408392303617,9.08
+48_CatBoost,CatBoost,rmse,0.0053710449380998445,8.73
+Ensemble,Ensemble,rmse,0.004644898296132586,1.34
+40_Xgboost_GoldenFeatures_Stacked,Xgboost,rmse,0.004828175898955268,5.09
+13_RandomForest_Stacked,Random Forest,rmse,0.00478948840996964,9.12
+28_CatBoost_Stacked,CatBoost,rmse,0.005321482142690946,9.23
+17_Xgboost_GoldenFeatures_Stacked,Xgboost,rmse,0.004840707505261289,5.6
+36_RandomForest_Stacked,Random Forest,rmse,0.004789609342391407,9.6
+48_CatBoost_Stacked,CatBoost,rmse,0.005265195690371407,9.84
+35_Xgboost_GoldenFeatures_Stacked,Xgboost,rmse,0.004834355988835951,6.07
+46_RandomForest_Stacked,Random Forest,rmse,0.004789586722907339,9.71
+27_CatBoost_Stacked,CatBoost,rmse,0.00521494503488627,5.78
+42_Xgboost_GoldenFeatures_Stacked,Xgboost,rmse,0.004842782085998962,5.58
+47_RandomForest_Stacked,Random Forest,rmse,0.004774193773391352,9.24
+39_CatBoost_Stacked,CatBoost,rmse,0.005295309534061776,8.0
+16_Xgboost_GoldenFeatures_Stacked,Xgboost,rmse,0.004841141906514211,6.98
+37_RandomForest_Stacked,Random Forest,rmse,0.004774227642787847,9.88
+29_CatBoost_Stacked,CatBoost,rmse,0.00532338147596313,8.54
+34_Xgboost_GoldenFeatures_Stacked,Xgboost,rmse,0.004839545026681994,6.48
+19_RandomForest_Stacked,Random Forest,rmse,0.004774236191391002,9.54
+32_CatBoost_Stacked,CatBoost,rmse,0.005274161924642121,7.01
+44_Xgboost_GoldenFeatures_Stacked,Xgboost,rmse,0.004837550073619479,6.6
+38_RandomForest_GoldenFeatures_Stacked,Random Forest,rmse,0.004894174303236433,11.13
+31_CatBoost_Stacked,CatBoost,rmse,0.005195645680022739,7.01
+41_Xgboost_GoldenFeatures_Stacked,Xgboost,rmse,0.0048419651096885535,7.36
+21_RandomForest_GoldenFeatures_Stacked,Random Forest,rmse,0.004894174599399301,10.16
+11_CatBoost_Stacked,CatBoost,rmse,0.00508216423868271,6.56
+4_Xgboost_GoldenFeatures_Stacked,Xgboost,rmse,0.004833601787900605,6.0
+20_RandomForest_GoldenFeatures_Stacked,Random Forest,rmse,0.004940555469992592,8.98
+9_CatBoost_Stacked,CatBoost,rmse,0.005342899471122837,11.92
+43_Xgboost_GoldenFeatures_Stacked,Xgboost,rmse,0.0048330949397627325,6.23
+13_RandomForest_GoldenFeatures_Stacked,Random Forest,rmse,0.004900013690739479,9.21
+2_Default_CatBoost_Stacked,CatBoost,rmse,0.005283814941303575,5.9
+Ensemble_Stacked,Ensemble,rmse,0.004644897770071885,3.37
