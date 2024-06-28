@@ -1,0 +1,74 @@
+name,model_type,metric_type,metric_value,train_time
+1_Default_Xgboost,Xgboost,rmse,2931.834821203575,21.37
+2_Default_CatBoost,CatBoost,rmse,3275.5764389034675,26.4
+3_Default_RandomForest,Random Forest,rmse,3130.7573900430107,29.71
+4_Xgboost,Xgboost,rmse,2960.3483292121523,14.34
+8_CatBoost,CatBoost,rmse,3358.8362424053453,35.93
+12_RandomForest,Random Forest,rmse,3127.069612638754,31.25
+5_Xgboost,Xgboost,rmse,2850.3942897466563,10.79
+9_CatBoost,CatBoost,rmse,3382.332305655171,38.14
+13_RandomForest,Random Forest,rmse,3290.890892325995,41.26
+6_Xgboost,Xgboost,rmse,3090.511645211258,12.75
+10_CatBoost,CatBoost,rmse,3307.175484855294,34.89
+14_RandomForest,Random Forest,rmse,3197.7891499951506,36.57
+7_Xgboost,Xgboost,rmse,3310.675982773156,12.83
+11_CatBoost,CatBoost,rmse,3351.6502196495207,42.02
+15_RandomForest,Random Forest,rmse,3308.9546997869625,37.82
+16_Xgboost,Xgboost,rmse,2904.1542359632276,13.23
+17_Xgboost,Xgboost,rmse,2787.545921332623,14.37
+18_Xgboost,Xgboost,rmse,2994.9672539242715,10.05
+19_Xgboost,Xgboost,rmse,2891.389032814369,11.25
+20_Xgboost,Xgboost,rmse,2947.5756321950757,9.76
+21_Xgboost,Xgboost,rmse,2916.074604916998,10.47
+22_RandomForest,Random Forest,rmse,3077.5873851073156,34.72
+23_RandomForest,Random Forest,rmse,3193.0189857549144,34.08
+24_RandomForest,Random Forest,rmse,3023.16985225791,27.42
+25_RandomForest,Random Forest,rmse,3201.1557541298134,29.16
+26_RandomForest,Random Forest,rmse,3157.216265137143,29.06
+27_RandomForest,Random Forest,rmse,3246.569242107215,30.39
+28_CatBoost,CatBoost,rmse,3293.9268222742917,33.08
+29_CatBoost,CatBoost,rmse,3327.7900872892947,35.82
+30_CatBoost,CatBoost,rmse,3341.80109089851,35.9
+31_CatBoost,CatBoost,rmse,3273.122854911823,31.29
+32_Xgboost,Xgboost,rmse,2925.776670183301,18.12
+33_Xgboost,Xgboost,rmse,3048.2393244019763,14.67
+34_Xgboost,Xgboost,rmse,2890.0087228347843,15.08
+35_RandomForest,Random Forest,rmse,2946.035804886723,31.89
+36_CatBoost,CatBoost,rmse,3282.202995624223,31.06
+37_CatBoost,CatBoost,rmse,3279.6851086447327,30.11
+38_CatBoost,CatBoost,rmse,3288.244492406207,29.83
+39_Xgboost,Xgboost,rmse,2938.379044060685,12.69
+40_Xgboost,Xgboost,rmse,2899.6512304617327,18.08
+41_CatBoost,CatBoost,rmse,3266.8925422305147,34.08
+Ensemble,Ensemble,rmse,2787.5459197455375,0.97
+17_Xgboost_Stacked,Xgboost,rmse,3056.8862065719745,13.8
+35_RandomForest_Stacked,Random Forest,rmse,3090.60589949067,46.27
+41_CatBoost_Stacked,CatBoost,rmse,3236.532608169311,34.95
+5_Xgboost_Stacked,Xgboost,rmse,3188.62177981175,13.77
+24_RandomForest_Stacked,Random Forest,rmse,3104.0790071352876,36.27
+31_CatBoost_Stacked,CatBoost,rmse,3232.917461000977,37.64
+34_Xgboost_Stacked,Xgboost,rmse,3183.832725418815,13.92
+22_RandomForest_Stacked,Random Forest,rmse,3128.2155104570224,36.63
+2_Default_CatBoost_Stacked,CatBoost,rmse,3263.643761988265,42.39
+19_Xgboost_Stacked,Xgboost,rmse,3148.5801593604974,12.76
+12_RandomForest_Stacked,Random Forest,rmse,3153.1893786523437,50.5
+37_CatBoost_Stacked,CatBoost,rmse,3265.323580785712,43.35
+40_Xgboost_Stacked,Xgboost,rmse,3182.2373224001417,19.4
+3_Default_RandomForest_Stacked,Random Forest,rmse,3122.802781465515,40.16
+36_CatBoost_Stacked,CatBoost,rmse,3232.489287565334,46.54
+16_Xgboost_Stacked,Xgboost,rmse,3230.3446407301635,16.77
+26_RandomForest_Stacked,Random Forest,rmse,3145.5778148740615,41.92
+38_CatBoost_Stacked,CatBoost,rmse,3263.502860866397,39.21
+21_Xgboost_Stacked,Xgboost,rmse,3200.6905526988935,14.67
+23_RandomForest_Stacked,Random Forest,rmse,3183.715697853724,41.24
+28_CatBoost_Stacked,CatBoost,rmse,3252.520224379135,45.3
+32_Xgboost_Stacked,Xgboost,rmse,3128.271599900129,21.66
+14_RandomForest_Stacked,Random Forest,rmse,3212.661117707282,45.71
+10_CatBoost_Stacked,CatBoost,rmse,3276.9695559170937,42.57
+1_Default_Xgboost_Stacked,Xgboost,rmse,3148.4111428524184,15.65
+25_RandomForest_Stacked,Random Forest,rmse,3176.991211311942,39.62
+29_CatBoost_Stacked,CatBoost,rmse,3243.260060188672,40.18
+39_Xgboost_Stacked,Xgboost,rmse,3184.6564188819807,15.81
+27_RandomForest_Stacked,Random Forest,rmse,3225.9609876686877,35.0
+30_CatBoost_Stacked,CatBoost,rmse,3262.297305204931,44.38
+Ensemble_Stacked,Ensemble,rmse,2787.54560300385,3.13
