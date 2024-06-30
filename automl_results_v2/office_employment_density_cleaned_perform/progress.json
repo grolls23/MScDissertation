@@ -1,0 +1,1610 @@
+{
+    "fit_level": "finished",
+    "time_controller": {
+        "total_time_limit": 3600,
+        "model_time_limit": 60,
+        "steps": [
+            "simple_algorithms",
+            "default_algorithms",
+            "not_so_random",
+            "hill_climbing_1",
+            "hill_climbing_2",
+            "hill_climbing_3",
+            "ensemble",
+            "stack",
+            "ensemble_stacked"
+        ],
+        "algorithms": [
+            "CatBoost",
+            "Xgboost",
+            "Random Forest"
+        ],
+        "spend": [
+            {
+                "model_name": "prepare_data",
+                "model_type": "prepare_data",
+                "fit_level": "prepare_data",
+                "train_time": 0.5804390907287598
+            },
+            {
+                "model_name": "1_Default_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "default_algorithms",
+                "train_time": 43.97052216529846
+            },
+            {
+                "model_name": "2_Default_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "default_algorithms",
+                "train_time": 107.58399295806885
+            },
+            {
+                "model_name": "3_Default_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "default_algorithms",
+                "train_time": 419.12599873542786
+            },
+            {
+                "model_name": "4_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "not_so_random",
+                "train_time": 740.1788058280945
+            },
+            {
+                "model_name": "8_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "not_so_random",
+                "train_time": 94.76222705841064
+            },
+            {
+                "model_name": "12_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "not_so_random",
+                "train_time": 45.91000699996948
+            },
+            {
+                "model_name": "5_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "not_so_random",
+                "train_time": 38.32807517051697
+            },
+            {
+                "model_name": "9_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "not_so_random",
+                "train_time": 68.32345390319824
+            },
+            {
+                "model_name": "13_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "not_so_random",
+                "train_time": 62.91808009147644
+            },
+            {
+                "model_name": "6_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "not_so_random",
+                "train_time": 49.9826123714447
+            },
+            {
+                "model_name": "10_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "not_so_random",
+                "train_time": 95.56862592697144
+            },
+            {
+                "model_name": "14_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "not_so_random",
+                "train_time": 60.90469408035278
+            },
+            {
+                "model_name": "7_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "not_so_random",
+                "train_time": 56.12277889251709
+            },
+            {
+                "model_name": "11_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "not_so_random",
+                "train_time": 89.80579996109009
+            },
+            {
+                "model_name": "15_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "not_so_random",
+                "train_time": 50.08406090736389
+            },
+            {
+                "model_name": "16_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 55.0083327293396
+            },
+            {
+                "model_name": "17_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 49.01106309890747
+            },
+            {
+                "model_name": "18_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 61.13513898849487
+            },
+            {
+                "model_name": "19_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 40.892104148864746
+            },
+            {
+                "model_name": "20_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 572.8319928646088
+            },
+            {
+                "model_name": "21_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 53.213865995407104
+            },
+            {
+                "model_name": "22_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "hill_climbing_1",
+                "train_time": 181.77115178108215
+            },
+            {
+                "model_name": "23_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "hill_climbing_1",
+                "train_time": 61.88611197471619
+            },
+            {
+                "model_name": "24_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 739.37610912323
+            },
+            {
+                "model_name": "25_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 43.32819890975952
+            },
+            {
+                "model_name": "26_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "hill_climbing_1",
+                "train_time": 52.55546689033508
+            },
+            {
+                "model_name": "27_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "hill_climbing_1",
+                "train_time": 147.03388476371765
+            },
+            {
+                "model_name": "28_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "hill_climbing_1",
+                "train_time": 45.31136083602905
+            },
+            {
+                "model_name": "29_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 87.94122219085693
+            },
+            {
+                "model_name": "30_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "hill_climbing_1",
+                "train_time": 41.40569019317627
+            },
+            {
+                "model_name": "Ensemble",
+                "model_type": "Ensemble",
+                "fit_level": "ensemble",
+                "train_time": 0.5147099494934082
+            }
+        ],
+        "is_hill_climbing": true,
+        "is_stacking": true
+    },
+    "all_params": {
+        "default_algorithms": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "objective": "reg:squarederror",
+                    "eta": 0.075,
+                    "max_depth": 6,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "seed": 1,
+                    "eval_metric": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "1_Default_Xgboost",
+                "status": "trained",
+                "final_loss": 0.006407080359340737,
+                "train_time": 44.28955817222595,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "learning_rate": 0.1,
+                    "depth": 6,
+                    "rsm": 1,
+                    "loss_function": "RMSE",
+                    "seed": 2,
+                    "eval_metric": "RMSE",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "2_Default_CatBoost",
+                "status": "trained",
+                "final_loss": 0.0062025961926265045,
+                "train_time": 107.90804290771484,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "criterion": "squared_error",
+                    "max_features": 0.9,
+                    "min_samples_split": 30,
+                    "max_depth": 4,
+                    "seed": 3,
+                    "eval_metric_name": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "3_Default_RandomForest",
+                "status": "trained",
+                "final_loss": 0.006415990307775352,
+                "train_time": 419.3994016647339,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            }
+        ],
+        "not_so_random": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "objective": "reg:squarederror",
+                    "eta": 0.075,
+                    "max_depth": 8,
+                    "min_child_weight": 5,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "eval_metric": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "4_Xgboost",
+                "status": "trained",
+                "final_loss": 0.00610205775387077,
+                "train_time": 740.445708990097,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "learning_rate": 0.05,
+                    "depth": 8,
+                    "rsm": 0.8,
+                    "loss_function": "RMSE",
+                    "eval_metric": "RMSE",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "8_CatBoost",
+                "status": "trained",
+                "final_loss": 0.006836150806192079,
+                "train_time": 95.08047604560852,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "criterion": "squared_error",
+                    "max_features": 0.5,
+                    "min_samples_split": 20,
+                    "max_depth": 4,
+                    "eval_metric_name": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "12_RandomForest",
+                "status": "trained",
+                "final_loss": 0.006350000422066368,
+                "train_time": 46.19974088668823,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "objective": "reg:squarederror",
+                    "eta": 0.1,
+                    "max_depth": 8,
+                    "min_child_weight": 1,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "eval_metric": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "5_Xgboost",
+                "status": "trained",
+                "final_loss": 0.0064619287816127914,
+                "train_time": 38.61809420585632,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "learning_rate": 0.1,
+                    "depth": 8,
+                    "rsm": 1.0,
+                    "loss_function": "MAE",
+                    "eval_metric": "RMSE",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "9_CatBoost",
+                "status": "trained",
+                "final_loss": 0.006841859602358684,
+                "train_time": 68.61424493789673,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1236,
+                    "criterion": "squared_error",
+                    "max_features": 0.7,
+                    "min_samples_split": 50,
+                    "max_depth": 3,
+                    "eval_metric_name": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "13_RandomForest",
+                "status": "trained",
+                "final_loss": 0.006580186461293586,
+                "train_time": 63.218974351882935,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "reg:squarederror",
+                    "eta": 0.1,
+                    "max_depth": 7,
+                    "min_child_weight": 25,
+                    "subsample": 0.9,
+                    "colsample_bytree": 0.6,
+                    "eval_metric": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "6_Xgboost",
+                "status": "trained",
+                "final_loss": 0.006222343140545502,
+                "train_time": 50.3613224029541,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "learning_rate": 0.1,
+                    "depth": 7,
+                    "rsm": 1.0,
+                    "loss_function": "RMSE",
+                    "eval_metric": "RMSE",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "10_CatBoost",
+                "status": "trained",
+                "final_loss": 0.0065823598363015596,
+                "train_time": 95.91816401481628,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "criterion": "squared_error",
+                    "max_features": 1.0,
+                    "min_samples_split": 40,
+                    "max_depth": 6,
+                    "eval_metric_name": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "14_RandomForest",
+                "status": "trained",
+                "final_loss": 0.0066922644098072435,
+                "train_time": 61.27634525299072,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "objective": "reg:squarederror",
+                    "eta": 0.15,
+                    "max_depth": 8,
+                    "min_child_weight": 50,
+                    "subsample": 0.6,
+                    "colsample_bytree": 0.6,
+                    "eval_metric": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "7_Xgboost",
+                "status": "trained",
+                "final_loss": 0.006391077219126404,
+                "train_time": 56.45913887023926,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "learning_rate": 0.2,
+                    "depth": 8,
+                    "rsm": 1.0,
+                    "loss_function": "MAE",
+                    "eval_metric": "RMSE",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "11_CatBoost",
+                "status": "trained",
+                "final_loss": 0.006708571971830722,
+                "train_time": 90.17869663238525,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "criterion": "squared_error",
+                    "max_features": 0.6,
+                    "min_samples_split": 50,
+                    "max_depth": 6,
+                    "eval_metric_name": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "15_RandomForest",
+                "status": "trained",
+                "final_loss": 0.006478766352747062,
+                "train_time": 50.40512275695801,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            }
+        ],
+        "hill_climbing_1": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "objective": "reg:squarederror",
+                    "eta": 0.075,
+                    "max_depth": 7,
+                    "min_child_weight": 5,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "eval_metric": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "16_Xgboost",
+                "status": "trained",
+                "final_loss": 0.00608929699069779,
+                "train_time": 55.348795890808105,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "objective": "reg:squarederror",
+                    "eta": 0.075,
+                    "max_depth": 9,
+                    "min_child_weight": 5,
+                    "subsample": 1.0,
+                    "colsample_bytree": 1.0,
+                    "eval_metric": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "17_Xgboost",
+                "status": "trained",
+                "final_loss": 0.006136035255537611,
+                "train_time": 49.318076848983765,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "learning_rate": 0.05,
+                    "depth": 6,
+                    "rsm": 1,
+                    "loss_function": "RMSE",
+                    "seed": 2,
+                    "eval_metric": "RMSE",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "18_CatBoost",
+                "status": "trained",
+                "final_loss": 0.0063034160842081865,
+                "train_time": 61.424137115478516,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "learning_rate": 0.2,
+                    "depth": 6,
+                    "rsm": 1,
+                    "loss_function": "RMSE",
+                    "seed": 2,
+                    "eval_metric": "RMSE",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "19_CatBoost",
+                "status": "trained",
+                "final_loss": 0.0064442303812807696,
+                "train_time": 41.160547971725464,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "reg:squarederror",
+                    "eta": 0.1,
+                    "max_depth": 6,
+                    "min_child_weight": 25,
+                    "subsample": 0.9,
+                    "colsample_bytree": 0.6,
+                    "eval_metric": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "20_Xgboost",
+                "status": "trained",
+                "final_loss": 0.00616677453240259,
+                "train_time": 573.1141228675842,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "objective": "reg:squarederror",
+                    "eta": 0.1,
+                    "max_depth": 8,
+                    "min_child_weight": 25,
+                    "subsample": 0.9,
+                    "colsample_bytree": 0.6,
+                    "eval_metric": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "21_Xgboost",
+                "status": "trained",
+                "final_loss": 0.006166836910766252,
+                "train_time": 53.509045124053955,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "criterion": "squared_error",
+                    "max_features": 0.5,
+                    "min_samples_split": 10,
+                    "max_depth": 4,
+                    "eval_metric_name": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "22_RandomForest",
+                "status": "trained",
+                "final_loss": 0.00620089323170274,
+                "train_time": 182.05649781227112,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1235,
+                    "criterion": "squared_error",
+                    "max_features": 0.5,
+                    "min_samples_split": 30,
+                    "max_depth": 4,
+                    "eval_metric_name": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "23_RandomForest",
+                "status": "trained",
+                "final_loss": 0.006509815256049498,
+                "train_time": 62.20902180671692,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "objective": "reg:squarederror",
+                    "eta": 0.15,
+                    "max_depth": 7,
+                    "min_child_weight": 50,
+                    "subsample": 0.6,
+                    "colsample_bytree": 0.6,
+                    "eval_metric": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "24_Xgboost",
+                "status": "trained",
+                "final_loss": 0.0064191333747169125,
+                "train_time": 739.6672968864441,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "objective": "reg:squarederror",
+                    "eta": 0.15,
+                    "max_depth": 9,
+                    "min_child_weight": 50,
+                    "subsample": 0.6,
+                    "colsample_bytree": 0.6,
+                    "eval_metric": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "25_Xgboost",
+                "status": "trained",
+                "final_loss": 0.00645693221222901,
+                "train_time": 43.60674786567688,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "criterion": "squared_error",
+                    "max_features": 0.9,
+                    "min_samples_split": 20,
+                    "max_depth": 4,
+                    "seed": 3,
+                    "eval_metric_name": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "26_RandomForest",
+                "status": "trained",
+                "final_loss": 0.006264563743537351,
+                "train_time": 52.83344912528992,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "criterion": "squared_error",
+                    "max_features": 0.9,
+                    "min_samples_split": 40,
+                    "max_depth": 4,
+                    "seed": 3,
+                    "eval_metric_name": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "27_RandomForest",
+                "status": "trained",
+                "final_loss": 0.006444735991186118,
+                "train_time": 147.3015058040619,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1238,
+                    "criterion": "squared_error",
+                    "max_features": 0.6,
+                    "min_samples_split": 40,
+                    "max_depth": 6,
+                    "eval_metric_name": "rmse",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "28_RandomForest",
+                "status": "trained",
+                "final_loss": 0.00647572001231269,
+                "train_time": 45.6172308921814,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "learning_rate": 0.05,
+                    "depth": 7,
+                    "rsm": 1.0,
+                    "loss_function": "RMSE",
+                    "eval_metric": "RMSE",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "29_CatBoost",
+                "status": "trained",
+                "final_loss": 0.006510488232498204,
+                "train_time": 88.26342701911926,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 4,
+                    "shuffle": false,
+                    "X_path": "automl_results_v2/office_employment_density_cleaned_perform/X.data",
+                    "y_path": "automl_results_v2/office_employment_density_cleaned_perform/y.data",
+                    "results_path": "automl_results_v2/office_employment_density_cleaned_perform/"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "seed": 1237,
+                    "learning_rate": 0.2,
+                    "depth": 7,
+                    "rsm": 1.0,
+                    "loss_function": "RMSE",
+                    "eval_metric": "RMSE",
+                    "explain_level": 1
+                },
+                "automl_random_state": 1234,
+                "ml_task": "regression",
+                "explain_level": 1,
+                "name": "30_CatBoost",
+                "status": "trained",
+                "final_loss": 0.00671241847042622,
+                "train_time": 41.695810317993164,
+                "data_type": "original",
+                "max_time_for_learner": 90.0
+            }
+        ],
+        "ensemble": [
+            {
+                "model_type": "ensemble",
+                "is_stacked": false,
+                "name": "Ensemble",
+                "status": "trained",
+                "final_loss": 0.00588213618675232,
+                "train_time": 0.5147099494934082
+            }
+        ]
+    },
+    "adjust_validation": false
+}
