@@ -1,0 +1,28 @@
+{
+    "name": "Ensemble",
+    "ml_task": "regression",
+    "optimize_metric": "rmse",
+    "selected_models": [
+        {
+            "model": "1_Default_Xgboost",
+            "repeat": 1.0
+        },
+        {
+            "model": "2_Default_CatBoost",
+            "repeat": 3.0
+        },
+        {
+            "model": "4_CatBoost",
+            "repeat": 2.0
+        },
+        {
+            "model": "5_Xgboost",
+            "repeat": 1.0
+        }
+    ],
+    "predictions_fname": "Ensemble/predictions_ensemble.csv",
+    "metric_name": "rmse",
+    "final_loss": 0.6271712051895851,
+    "train_time": 0.07935476303100586,
+    "is_stacked": false
+}

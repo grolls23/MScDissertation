@@ -1,0 +1,9 @@
+name,model_type,metric_type,metric_value,train_time
+1_Default_Xgboost,Xgboost,rmse,0.6445625513106538,437.49
+2_Default_CatBoost,CatBoost,rmse,0.6309565296387565,1403.35
+3_Default_RandomForest,Random Forest,rmse,0.6924330678330235,406.17
+4_CatBoost,CatBoost,rmse,0.6347755089604281,1320.78
+5_Xgboost,Xgboost,rmse,0.6442572188192934,197.65
+6_RandomForest,Random Forest,rmse,0.6911840745769258,280.59
+7_RandomForest,Random Forest,rmse,0.6935478394018787,1087.31
+Ensemble,Ensemble,rmse,0.6271712051895851,0.08

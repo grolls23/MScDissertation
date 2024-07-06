@@ -1,0 +1,62 @@
+{
+    "mode": "Explain",
+    "ml_task": "regression",
+    "results_path": "automl_results_v2/lagged_employment_density/",
+    "total_time_limit": 3600,
+    "model_time_limit": 60,
+    "algorithms": [
+        "CatBoost",
+        "Xgboost",
+        "Random Forest"
+    ],
+    "train_ensemble": true,
+    "stack_models": true,
+    "eval_metric": "rmse",
+    "validation_strategy": {
+        "validation_type": "kfold",
+        "k_folds": 4,
+        "shuffle": false,
+        "X_path": "automl_results_v2/lagged_employment_density/X.data",
+        "y_path": "automl_results_v2/lagged_employment_density/y.data",
+        "results_path": "automl_results_v2/lagged_employment_density/"
+    },
+    "verbose": 1,
+    "explain_level": 1,
+    "golden_features": false,
+    "features_selection": false,
+    "start_random_models": 5,
+    "hill_climbing_steps": 3,
+    "top_models_to_improve": 3,
+    "boost_on_errors": false,
+    "kmeans_features": false,
+    "mix_encoding": false,
+    "max_single_prediction_time": null,
+    "n_jobs": -1,
+    "random_state": 1234,
+    "saved": [
+        "1_Default_Xgboost",
+        "2_Default_CatBoost",
+        "3_Default_RandomForest",
+        "4_Xgboost",
+        "8_CatBoost",
+        "12_RandomForest",
+        "5_Xgboost",
+        "9_CatBoost",
+        "13_RandomForest",
+        "6_Xgboost",
+        "10_CatBoost",
+        "14_RandomForest",
+        "7_Xgboost",
+        "11_CatBoost",
+        "15_RandomForest",
+        "Ensemble"
+    ],
+    "fit_level": "finished",
+    "best_model": "Ensemble",
+    "load_on_predict": [
+        "4_Xgboost",
+        "6_Xgboost",
+        "7_Xgboost",
+        "Ensemble"
+    ]
+}
